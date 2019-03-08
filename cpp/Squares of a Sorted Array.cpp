@@ -38,7 +38,7 @@ class Solution {
 public:
 	vector<int> sortedSquares(vector<int>& A) {
 		for (int i = 0; i < A.size(); i++) {
-/* first step,square each element */
+			/* first step,square each element */
 			A[i] = A[i] * A[i];  
 		}
 		/* second step, sort them */
