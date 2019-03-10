@@ -6,23 +6,24 @@ Date: 03-04-2019
 
 /*
 
+709. To Lower Case
+
 Easy
 
 Share
 Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
 
 Example 1:
+Input: â€œHelloâ€
+Output: â€œhelloâ€
 
-Input: ¡°Hello¡±
-Output: ¡°hello¡±
 Example 2:
+Input: â€œhereâ€
+Output: â€œhereâ€
 
-Input: ¡°here¡±
-Output: ¡°here¡±
 Example 3:
-
-Input: ¡°LOVELY¡±
-Output: ¡°lovely¡±
+Input: â€œLOVELYâ€
+Output: â€œlovelyâ€
 
 */
 
