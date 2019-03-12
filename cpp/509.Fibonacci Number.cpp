@@ -55,7 +55,7 @@ public:
 
 /*
 
-Submissions details:
+Submission Detail:
 
 Runtime: 16 ms, faster than 27.76% of C++ online submissions for Fibonacci Number.
 Memory Usage: 8.3 MB, less than 71.08% of C++ online submissions for Fibonacci Number.
