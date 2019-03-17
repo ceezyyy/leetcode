@@ -10,7 +10,7 @@ Medium
 
 Share
 Given four lists A, B, C, D of integer values, compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero.
-To make problem a bit easier, all A, B, C, D have same length of N where 0 ¡Ü N ¡Ü 500. All integers are in the range of -228 to 228 - 1 and the result is guaranteed to be at most 231 - 1.
+To make problem a bit easier, all A, B, C, D have same length of N where 0 Â¡Ãœ N Â¡Ãœ 500. All integers are in the range of -228 to 228 - 1 and the result is guaranteed to be at most 231 - 1.
 
 Example:
 Input:
@@ -40,13 +40,18 @@ public:
 	int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
 		int count = 0;
 		map<int, int> mAB;
-		for (int i = 0; i < A.size(); ++i) {
-			for (int j = 0; j < B.size(); ++j) {
-				++mAB[A.at(i) + B.at(j)];
+		for (int i = 0; i < A.size(); i++) {
+			for (int j = 0; j < B.size(); j++) {
+				mAB[A.at(i) + B.at(j)++];
+				/*
+				If an insertion is performed, the mapped value is value-initialized 
+				(default-constructed for class types, zero-initialized otherwise) 
+				and a reference to it is returned.
+				*/
 			}
 		}
-		for (int k = 0; k < C.size(); ++k) {
-			for (int l = 0; l < D.size(); ++l) {
+		for (int k = 0; k < C.size(); k++) {
+			for (int l = 0; l < D.size(); l++) {
 				if (mAB.find(-(C.at(k) + D.at(l))) != mAB.end()) {
 					count += mAB[-(C.at(k) + D.at(l))];
 				}
