@@ -42,7 +42,7 @@ public:
 		map<int, int> mAB;
 		for (int i = 0; i < A.size(); i++) {
 			for (int j = 0; j < B.size(); j++) {
-				mAB[A.at(i) + B.at(j)++];
+				mAB[A.at(i) + B.at(j)]++;
 				/*
 				If an insertion is performed, the mapped value is value-initialized 
 				(default-constructed for class types, zero-initialized otherwise) 
