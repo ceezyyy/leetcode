@@ -10,28 +10,28 @@ Easy
 
 Share
 Write a program that outputs the string representation of numbers from 1 to n.
-But for multiples of three it should output ¡°Fizz¡± instead of the number and for the multiples of five output ¡°Buzz¡±. 
-For numbers which are multiples of both three and five output ¡°FizzBuzz¡±.
+But for multiples of three it should output â€œFizzâ€ instead of the number and for the multiples of five output â€œBuzzâ€. 
+For numbers which are multiples of both three and five output â€œFizzBuzzâ€.
 
 Example:
 n = 15,
 Return:
 [
-¡°1¡±,
-¡°2¡±,
-¡°Fizz¡±,
-¡°4¡±,
-¡°Buzz¡±,
-¡°Fizz¡±,
-¡°7¡±,
-¡°8¡±,
-¡°Fizz¡±,
-¡°Buzz¡±,
-¡°11¡±,
-¡°Fizz¡±,
-¡°13¡±,
-¡°14¡±,
-¡°FizzBuzz¡±
+â€œ1â€,
+â€œ2â€,
+â€œFizzâ€,
+â€œ4â€,
+â€œBuzzâ€,
+â€œFizzâ€,
+â€œ7â€,
+â€œ8â€,
+â€œFizzâ€,
+â€œBuzzâ€,
+â€œ11â€,
+â€œFizzâ€,
+â€œ13â€,
+â€œ14â€,
+â€œFizzBuzzâ€
 ]
 
 */
