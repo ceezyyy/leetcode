@@ -1,5 +1,5 @@
 /*
-Source: LeetCode 412. Fizz Buzz
+Source: LeetCode 268. Missing Number.cpp
 Author: ceezyyy
 Date: 03-22-2019
 */
@@ -9,7 +9,7 @@ Date: 03-22-2019
 Easy
 
 Share
-Given an array containing n distinct numbers taken from 0, 1, 2, ¡­, n, 
+Given an array containing n distinct numbers taken from 0, 1, 2, Â¡Â­, n, 
 find the one that is missing from the array.
 
 Example 1:
