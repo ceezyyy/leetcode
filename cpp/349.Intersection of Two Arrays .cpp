@@ -51,6 +51,9 @@ public:
 		*/
 		sort(res.begin(), res.end());
 		res.erase(unique(res.begin(), res.end()), res.end());
+		/*
+		use unique() with sort()
+		*/
 		return res;
 	}
 
@@ -72,9 +75,5 @@ Study Notes:
 1.The iterator returned by unique points to the next position beyond the end of the non-repeating element range.
 
 2.The algorithm does not directly modify the size of the container. If you need to add or remove elements, you must use container operations.
-
-3.In STL, the unique function is a de-duplication function. The unique function is to remove the adjacent repeating elements (only one is reserved). 
-In fact, it does not really remove the duplicated elements. It is to move the repeated elements to the back, and then It is still saved in the original array, 
-and then returns the address of the last element after deduplication, because unique removes the adjacent repeating elements, so it will be sorted out before use.
 
 */
