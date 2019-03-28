@@ -1,2 +1,2 @@
 # LeetCode
-LeetCode problem's solution &amp; some study notes
+LeetCode problems' solutions &amp; some study notes
