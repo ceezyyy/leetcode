@@ -50,7 +50,7 @@ public:
 			}
 		}
 		res.push_back(tempCount);  /* it can return zero even if all elements are zero */
-		sort(res.begin(), res.end(), greater<int>());  /* find the maximum number of consecutive 1 */
+		sort(res.begin(), res.end(), greater<int>());  /* find the maximum number of consecutive 1s */
 		return res.at(0);
 	}
 };
