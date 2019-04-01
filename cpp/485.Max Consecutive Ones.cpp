@@ -43,8 +43,8 @@ public:
 				res.push_back(tempCount);
 				/*
 				Each length(number) of consecutive 1s,
-				here is use vector in order to sort the array
-				to find the maximum number
+				here use vector in order to find the maximum number
+				by sorting the array
 				*/
 				tempCount = 0;
 			}
