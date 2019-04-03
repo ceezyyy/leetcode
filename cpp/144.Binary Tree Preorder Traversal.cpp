@@ -26,7 +26,7 @@
 #include<vector>
 using namespace std;
 
-/* Definition for a binary tree node */
+// Definition for a binary tree node 
 struct TreeNode {
 	int val;
 	TreeNode *left;
@@ -34,7 +34,7 @@ struct TreeNode {
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  };
 
-/* Recursive implementation */
+// Recursive implementation 
 class Solution {
 public:
 	vector<int> preorderTraversal(TreeNode* root) {
