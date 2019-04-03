@@ -2,6 +2,7 @@
  * Source: LeetCode 724. Find Pivot Index
  * Author: ceezyyy
  * Date: 04-03-2019
+ * Reference: @Huahua https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-724-find-pivot-index/
  */
 
 
