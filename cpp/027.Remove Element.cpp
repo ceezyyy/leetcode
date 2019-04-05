@@ -1,8 +1,8 @@
-/*
-Source: LeetCode 027. Remove Element
-Author: ceezyyy
-Date: 03-26-2019
-*/
+/**
+ * Source: LeetCode 027. Remove Element
+ * Author: ceezyyy
+ * Date: 03-26-2019
+ */
 
 
 /*
@@ -61,18 +61,13 @@ public:
 };
 
 
-/*
-Submission Detail:
-
-Runtime: 4 ms, faster than 100.00% of C++ online submissions for Remove Element.
-Memory Usage: 8.6 MB, less than 100.00% of C++ online submissions for Remove Element.
-
-*/
+//Study Notes:
+//One slow-runner and one fast-runner at the same time
 
 
-/*
-Study Notes:
+/**
+ * Submission Detail:
+ * Runtime: 4 ms, faster than 100.00% of C++ online submissions for Remove Element.
+ * Memory Usage: 8.6 MB, less than 100.00% of C++ online submissions for Remove Element.
+ */
 
-One slow-runner and one fast-runner at the same time
-
-*/
