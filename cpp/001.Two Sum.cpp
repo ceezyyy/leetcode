@@ -1,13 +1,10 @@
-/*
-Source: LeetCode 001.Two Sum
-Author: ceezyyy
-Date: 03-01-2019
-*/
+/**
+ * Source: LeetCode 001.Two Sum
+ * Author: ceezyyy
+ * Date: 03-01-2019
+ */
 
 /*
-
-1. Two Sum
-
 Easy
 
 Share
