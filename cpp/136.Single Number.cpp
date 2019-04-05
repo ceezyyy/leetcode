@@ -1,8 +1,8 @@
-/*
-Source: LeetCode 136. Single Number 
-Author: ceezyyy
-Date: 03-21-2019
-*/
+/**
+ * Source: LeetCode 136. Single Number 
+ * Author: ceezyyy
+ * Date: 03-21-2019
+ */
 
 
 /*
@@ -48,10 +48,8 @@ public:
 };
 
 
-/*
-Submission Detail:
-
-Runtime: 32 ms, faster than 11.83% of C++ online submissions for Single Number.
-Memory Usage: 11.7 MB, less than 5.09% of C++ online submissions for Single Number.
-
-*/
+/**
+ * Submission Detail:
+ * Runtime: 32 ms, faster than 11.83% of C++ online submissions for Single Number.
+ * Memory Usage: 11.7 MB, less than 5.09% of C++ online submissions for Single Number.
+ */
