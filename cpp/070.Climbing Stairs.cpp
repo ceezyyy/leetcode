@@ -1,8 +1,8 @@
-/*
-Source: LeetCode 070. Climbing Stairs
-Author: ceezyyy
-Date: 03-29-2019
-*/
+/**
+ * Source: LeetCode 070. Climbing Stairs
+ * Author: ceezyyy
+ * Date: 03-29-2019
+ */
 
 
 /*
@@ -56,10 +56,8 @@ public:
 };
 
 
-/*
-Submission Detail:
-
-Runtime: 4 ms, faster than 100.00% of C++ online submissions for Climbing Stairs.
-Memory Usage: 8.4 MB, less than 68.98% of C++ online submissions for Climbing Stairs.
-
-*/
+/**
+ * Submission Detail:
+ * Runtime: 4 ms, faster than 100.00% of C++ online submissions for Climbing Stairs.
+ * Memory Usage: 8.4 MB, less than 68.98% of C++ online submissions for Climbing Stairs.
+ */
