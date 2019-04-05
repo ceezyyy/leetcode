@@ -1,8 +1,8 @@
-/*
-Source: LeetCode 88. Merge Sorted Array
-Author: ceezyyy
-Date: 03-25-2019
-*/
+/**
+ * Source: LeetCode 88. Merge Sorted Array
+ * Author: ceezyyy
+ * Date: 03-25-2019
+ */
 
 
 /*
@@ -41,10 +41,8 @@ public:
 };
 
 
-/*
-Submission Detail:
-
-Runtime: 8 ms, faster than 90.93% of C++ online submissions for Merge Sorted Array.
-Memory Usage: 9.2 MB, less than 18.22% of C++ online submissions for Merge Sorted Array.
-
-*/
+/**
+ * Submission Detail:
+ * Runtime: 8 ms, faster than 90.93% of C++ online submissions for Merge Sorted Array.
+ * Memory Usage: 9.2 MB, less than 18.22% of C++ online submissions for Merge Sorted Array.
+ */
