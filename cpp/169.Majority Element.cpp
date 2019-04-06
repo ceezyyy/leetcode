@@ -1,8 +1,8 @@
-﻿/*
-Source: LeetCode 169. Majority Element
-Author: ceezyyy
-Date: 03-20-2019
-*/
+/**
+ * Source: LeetCode 169. Majority Element
+ * Author: ceezyyy
+ * Date: 03-20-2019
+ */
 
 
 /*
@@ -45,19 +45,14 @@ public:
 };
 
 
-/*
-Submission Detail:
+//Study Notes:
+//Maps are associative containers that store elements in a mapped fashion. 
+//Each element has a key value and a mapped value. 
+//No two mapped values can have same key values.
 
-Runtime: 24 ms, faster than 60.88% of C++ online submissions for Majority Element.
-Memory Usage: 11.3 MB, less than 50.66% of C++ online submissions for Majority Element.
 
-*/
-
-/*
-Study Notes:
-
-Maps are associative containers that store elements in a mapped fashion. 
-Each element has a key value and a mapped value. 
-No two mapped values can have same key values.
-
-*/
+/**
+ * Submission Detail:
+ * Runtime: 24 ms, faster than 60.88% of C++ online submissions for Majority Element.
+ * Memory Usage: 11.3 MB, less than 50.66% of C++ online submissions for Majority Element.
+ */
