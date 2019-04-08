@@ -1,8 +1,8 @@
-/*
-Source: LeetCode 231. Power of Two
-Author: ceezyyy
-Date: 03-23-2019
-*/
+/**
+ * Source: LeetCode 231. Power of Two
+ * Author: ceezyyy
+ * Date: 03-23-2019
+ */
 
 
 /*
@@ -45,18 +45,8 @@ public:
 };
 
 
-/*
-Submission Detail:
-
-Runtime: 24 ms, faster than 50.20% of C++ online submissions for Power of Two.
-Memory Usage: 8.3 MB, less than 5.11% of C++ online submissions for Power of Two.
-
-*/
-
-
-/*
-Study Notes:
-
-My solution sucks... I'm supposed to learn more!!!
-
-*/
+/**
+ * Submission Detail:
+ * Runtime: 24 ms, faster than 50.20% of C++ online submissions for Power of Two.
+ * Memory Usage: 8.3 MB, less than 5.11% of C++ online submissions for Power of Two.
+ */
