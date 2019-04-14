@@ -1,15 +1,15 @@
-/*
-Source: LeetCode 283. Move Zeroes
-Author: ceezyyy
-Date: 03-26-2019
-*/
+/**
+ * Source: LeetCode 283. Move Zeroes
+ * Author: ceezyyy
+ * Date: 03-26-2019
+ */
 
 
 /*
 Easy
 
 Share
-Given an array nums, write a function to move all 0¡¯s to the end of it 
+Given an array nums, write a function to move all 0Â¡Â¯s to the end of it 
 while maintaining the relative order of the non-zero elements.
 
 Example:
@@ -43,19 +43,12 @@ public:
 };
 
 
-/*
-Submission Detail:
-
-Runtime: 16 ms, faster than 99.47% of C++ online submissions for Move Zeroes.
-Memory Usage: 9.4 MB, less than 98.83% of C++ online submissions for Move Zeroes.
-
-*/
+// Study Notes:
+// one slow-runner and one fast-runner at the same time
 
 
-/*
-Study Notes:
-
-One slow-runner and one fast-runner at the same time
-
-*/
-
+/**
+ * Submission Detail:
+ * Runtime: 16 ms, faster than 99.47% of C++ online submissions for Move Zeroes.
+ * Memory Usage: 9.4 MB, less than 98.83% of C++ online submissions for Move Zeroes.
+ */
