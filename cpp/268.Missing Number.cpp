@@ -1,8 +1,8 @@
-/*
-Source: LeetCode 268. Missing Number.cpp
-Author: ceezyyy
-Date: 03-22-2019
-*/
+/**
+ * Source: LeetCode 268. Missing Number.cpp
+ * Author: ceezyyy
+ * Date: 03-22-2019
+ */
 
 
 /*
@@ -53,10 +53,8 @@ public:
 };
 
 
-/*
-Submission Detail:
-
-Runtime: 68 ms, faster than 6.36% of C++ online submissions for Missing Number.
-Memory Usage: 17.5 MB, less than 5.19% of C++ online submissions for Missing Number.
-
-*/
+/**
+ * Submission Detail:
+ * Runtime: 68 ms, faster than 6.36% of C++ online submissions for Missing Number.
+ * Memory Usage: 17.5 MB, less than 5.19% of C++ online submissions for Missing Number.
+ */
