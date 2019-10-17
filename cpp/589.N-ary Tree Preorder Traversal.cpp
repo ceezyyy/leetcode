@@ -6,6 +6,8 @@
 
 
 /*
+Easy
+
 Given an n - ary tree, return the preorder traversal of its nodes' values.
 
 For example, given a 3 - ary tree :
