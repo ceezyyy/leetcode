@@ -1,14 +1,14 @@
 """
-946. Validate Stack Sequences
-Date: Oct-26 2019
-Author: ceezyyy
-Difficulty: Medium
+@Title: 946. Validate Stack Sequences
+@Tag: stack
+@Date: Oct-26 2019
+@Author: ceezyyy
+@Difficulty: Medium
 """
 
 
 import collections
 from typing import List
-
 
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:

@@ -1,8 +1,9 @@
 """
-653. Two Sum IV - Input is a BST
-Date: Oct-29 2019
-Author: ceezyyy
-Difficulty: Easy
+@Title: 653. Two Sum IV - Input is a BST
+@Tag: binary tree & two pointers
+@Date: Oct-29 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 # Definition for a binary tree node.

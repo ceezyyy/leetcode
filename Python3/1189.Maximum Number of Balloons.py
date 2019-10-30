@@ -1,7 +1,9 @@
 """
-1189. Maximum Number of Balloons
-Date: Oct-22 2019
-Author: ceezyyy
+@Title: 1189. Maximum Number of Balloons
+@Tag: dict
+@Date: Oct-22 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 

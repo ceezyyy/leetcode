@@ -1,8 +1,9 @@
 """
-590. N-ary Tree Postorder Traversal
-Date: Oct-28 2019
-Author: ceezyyy
-Difficulty: Easy
+@Title: 590. N-ary Tree Postorder Traversal
+@Tag: tree
+@Date: Oct-28 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 

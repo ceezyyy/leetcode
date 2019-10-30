@@ -1,8 +1,9 @@
 """
-515. Find Largest Value in Each Tree Row
-Date: Oct-28 2019
-Author: ceezyyy
-Difficulty: Medium
+@Title: 515. Find Largest Value in Each Tree Row
+@Tag: binary tree
+@Date: Oct-28 2019
+@Author: ceezyyy
+@Difficulty: Medium
 """
 
 from typing import List

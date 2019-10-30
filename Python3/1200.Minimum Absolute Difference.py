@@ -1,7 +1,9 @@
 """
-1200. Minimum Absolute Difference
-Date: Oct-23 2019
-Author: ceezyyy
+@Title: 1200. Minimum Absolute Difference
+@Tag: list
+@Date: Oct-23 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 

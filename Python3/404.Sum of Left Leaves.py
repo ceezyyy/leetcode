@@ -1,7 +1,9 @@
 """
-404. Sum of Left Leaves
-Date: Oct-30 2019
-Author: ceezyyy
+@Title: 404. Sum of Left Leaves
+@Tag: binary tree
+@Date: Oct-30 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 

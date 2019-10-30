@@ -1,7 +1,9 @@
 """
-1051. Height Checker
-Date: Oct-22 2019
-Author: ceezyyy
+@Title: 1051. Height Checker
+@Tag: list
+@Date: Oct-22 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 

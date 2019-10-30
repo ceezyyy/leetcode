@@ -1,7 +1,9 @@
 """
-513. Find Bottom Left Tree Value
-Date: Oct-23 2019
-Author: ceezyyy
+@Title: 513. Find Bottom Left Tree Value
+@Tag: binary Tree
+@Date: Oct-23 2019
+@Author: ceezyyy
+@Difficulty: Medium 
 """
 
 

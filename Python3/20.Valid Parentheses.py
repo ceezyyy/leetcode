@@ -1,8 +1,9 @@
 """
-20. Valid Parentheses
-Date: Oct-24 2019
-Author: ceezyyy
-Difficulty: Easy
+@Title: 20. Valid Parentheses
+@Tag: stack
+@Date: Oct-24 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 

@@ -1,8 +1,9 @@
 """
-232. Implement Queue using Stacks
-Date: Oct-24 2019
-Author: ceezyyy
-Difficulty: Easy
+@Title: 232. Implement Queue using Stacks
+@Tag: queue
+@Date: Oct-24 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 

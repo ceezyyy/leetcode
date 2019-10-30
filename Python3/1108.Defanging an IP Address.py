@@ -1,7 +1,9 @@
 """
-1108. Defanging an IP Address
-Date: Oct-22 2019
-Author: ceezyyy
+@Title: 1108. Defanging an IP Address
+@Tag: str
+@Date: Oct-22 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 
@@ -17,3 +19,4 @@ def main():
 
 if __name__=="__main__":
     main()
+

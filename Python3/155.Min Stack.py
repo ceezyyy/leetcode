@@ -1,8 +1,9 @@
 """
-155. Min Stack
-Date: Oct-24 2019
-Author: ceezyyy
-Difficulty: Easy
+@Title: 155. Min Stack
+@Tag: stack
+@Date: Oct-24 2019
+@Author: ceezyyy
+@Difficulty: Easy
 """
 
 
