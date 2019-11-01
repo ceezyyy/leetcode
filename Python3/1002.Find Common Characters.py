@@ -22,6 +22,15 @@ class Solution:
         return res
 
 
+def test():
+    s = Solution()
+    print(s.commonChars(["bella", "label", "roller"]))
+
+
+if __name__ == "__main__":
+    test()
+
+
 '''
 Runtime: 52 ms, faster than 86.99% of Python3 online submissions for Find Common Characters.
 Memory Usage: 14 MB, less than 5.55% of Python3 online submissions for Find Common Characters.
