@@ -1,7 +1,7 @@
 """
 @Title: 884. Uncommon Words from Two Sentences
 @Tag: HashTable
-@Date: Nov-12    2019
+@Date: Nov-12 2019
 @Author: ceezyyy
 @Difficulty: Easy
 """
