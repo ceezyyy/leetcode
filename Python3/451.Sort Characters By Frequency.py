@@ -29,3 +29,9 @@ def test():
 
 if __name__ == "__main__":
     test()
+
+
+"""
+Runtime: 28 ms, faster than 99.89% of Python3 online submissions for Sort Characters By Frequency.
+Memory Usage: 14 MB, less than 42.86% of Python3 online submissions for Sort Characters By Frequency.
+"""
