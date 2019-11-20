@@ -32,7 +32,7 @@ class Solution:
                 # popped after calculating
                 t1 = stack.pop()
                 t2 = stack.pop()
-                # division between two integers should truncate toward zero.
+                # division between two integers should truncate toward zero
                 stack.append(int(t2/t1))
             else:
                 stack.append(int(op))  # numbers
