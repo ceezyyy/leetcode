@@ -1,6 +1,6 @@
 """
 @Topic: 1137. N-th Tribonacci Number
-@Tag: memory dp
+@Tag: dp
 @Date: Dec-14 2019
 @Author: ceezyyy
 @Difficulty: Easy 
