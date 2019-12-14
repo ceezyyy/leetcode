@@ -23,3 +23,9 @@ class Solution:
         for i in range(3, n+1):
             res[i] = res[i-3]+res[i-2]+res[i-1]
         return res[n]
+
+
+"""
+Runtime: 24 ms, faster than 94.36% of Python3 online submissions for N-th Tribonacci Number.
+Memory Usage: 12.7 MB, less than 100.00% of Python3 online submissions for N-th Tribonacci Number.
+"""
