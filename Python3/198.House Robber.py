@@ -9,7 +9,7 @@
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        dp = [0]*len(nums)  # memory
+        dp = [0] * len(nums)  # memory
         # corner case
         if len(nums) == 0:
             return 0
