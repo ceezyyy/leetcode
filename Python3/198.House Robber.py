@@ -22,9 +22,11 @@ class Solution:
         # initialization
         dp[0] = nums[0]
         dp[1] = nums[1]
-        dp[2] = nums[0]+nums[2]
+        dp[2] = nums[0] + nums[2]
         for i in range(3, len(nums)):
-            dp[i] = max(dp[i-3], dp[i-2])+nums[i]
+            # no adjacent houses, so at most two situations
+            dp[i] = max(dp[i-3], dp[i-2])+nums[i]  # dp
+        # always will come back to the last two rooms, since every room at least have money
         return max(dp[-1], dp[-2])
 
 
