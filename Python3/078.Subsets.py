@@ -1,6 +1,6 @@
 """
 @Title: 078. Subsets
-@Tag: backtracking
+@Tag: recursion
 @Date: Dec-28 2019
 @Author: ceezyyy
 @Difficulty: Medium
