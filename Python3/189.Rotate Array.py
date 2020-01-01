@@ -1,14 +1,10 @@
 """
-@Topic: 189. Rotate Array
-@Tag: list
-@Date: Oct-30 2019
+@Title: 189. Rotate Array
+@Tag: array
+@Date: Jan-01 2020
 @Author: ceezyyy
-@Difficulty: Easy 
+@Difficulty: Easy
 """
-
-from typing import List
-
-# Solution One
 
 
 class Solution:
@@ -16,24 +12,18 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        #  in-place with O(n) extra space
-        size = len(nums)
-        res = list(nums)  # res is a copy of nums
-        for i in range(size):
-            if (i+k) < size:
-                nums[i+k] = res[i]
-            else:
-                # the thought is equivalent to circular linked list
-                nums[(i+k) % size] = res[i]  # here is '%'
-        # print(nums)
+        new_nums = nums.copy()  # a copy of nums, which means we create an extra space
+        for i in range(len(nums)-1, -1, -1):  # reverse order
+            nums[(i+k) % len(nums)] = new_nums[i]  # modify in-place
 
 
-# testing
-def test():
-    s = Solution()
-    s.rotate([-1, -100, 3, 99], 2)
-    s.rotate([1, 2, 3, 4, 5, 6, 7], 3)
+"""
+Runtime: 64 ms, faster than 75.63% of Python3 online submissions for Rotate Array.
+Memory Usage: 14.1 MB, less than 5.09% of Python3 online submissions for Rotate Array.
+"""
 
 
-if __name__ == "__main__":
-    test()
+"""
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
