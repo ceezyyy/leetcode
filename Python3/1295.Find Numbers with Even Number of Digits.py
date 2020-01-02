@@ -27,6 +27,6 @@ Memory Usage: 12.9 MB, less than 100.00% of Python3 online submissions for Find 
 
 
 """
-Time Complexity: O()
+Time Complexity: O(n)
 Space Complexity: O(1)
 """
