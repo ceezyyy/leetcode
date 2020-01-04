@@ -1,56 +1,25 @@
 """
 @Title: 242. Valid Anagram
 @Tag: str
-@Date: Nov-02 2019
+@Date: Jan-04 2020
 @Author: ceezyyy
 @Difficulty: Easy
 """
 
-# Solution One(collections.Counter)
 
-
-class Solution1:
+class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        from collections import Counter
-        return Counter(s) == Counter(t)
+        freq = [0] * 26  # the frequency of each letters
+        if len(s) != len(t):  # s and t should have the same length
+            return False
+        for i in range(len(s)):
+            freq[ord(s[i])-ord('a')] += 1
+            freq[ord(t[i])-ord('a')] -= 1
+        # all the element should be the same -- zero
+        return len(set(freq)) == 1
 
 
-'''
-Runtime: 44 ms, faster than 93.31% of Python3 online submissions for Valid Anagram.
-Memory Usage: 14.3 MB, less than 6.25% of Python3 online submissions for Valid Anagram.
-'''
-
-
-# Solution Two(HashTable)
-
-
-class Solution2:
-    def isAnagram(self, s: str, t: str) -> bool:
-        if len(s) != len(t):
-            return False  # the first step
-        res = [0]*26
-        # HashTable
-        for i, j in zip(s, t):  # zip() --> the length of the list should be the same
-            res[ord(i)-97] += 1  # 'a'--97
-            res[ord(j)-97] -= 1
-        for i in range(len(res)):
-            if res[i] != 0:
-                return False
-        return True
-
-
-'''
-Runtime: 64 ms, faster than 50.67% of Python3 online submissions for Valid Anagram.
-Memory Usage: 14.1 MB, less than 9.38% of Python3 online submissions for Valid Anagram.
-'''
-
-
-def test():
-    s1 = Solution1()
-    s2 = Solution2()
-    print(s1.isAnagram("rat", "tar"))
-    print(s2.isAnagram("a", "ab"))
-
-
-if __name__ == "__main__":
-    test()
+"""
+Runtime: 56 ms, faster than 25.61% of Python3 online submissions for Valid Anagram.
+Memory Usage: 13.1 MB, less than 96.88% of Python3 online submissions for Valid Anagram.
+"""
