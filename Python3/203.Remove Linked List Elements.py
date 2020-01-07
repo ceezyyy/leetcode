@@ -19,15 +19,15 @@ class Solution:
         # corner case
         if not head:
             return None
-        pre_node = ListNode(-1)  # the imaginary node
-        pre_node.next = head
-        cur = pre_node
+        dummy_head = ListNode(-1)  # the dummy head
+        dummy_head.next = head
+        cur = dummy_head
         while cur.next:  # scan
             if cur.next.val == val:
                 cur.next = cur.next.next
             else:
                 cur = cur.next
-        return pre_node.next  # do not return 'head' or 'cur'
+        return dummy_head.next  # do not return 'head' or 'cur'
 
 
 """
