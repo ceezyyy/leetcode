@@ -6,6 +6,7 @@
 @Difficulty: Medium
 """
 
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -15,6 +16,7 @@
 
 
 # Solution 1: recursion
+
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
         res = []
@@ -32,4 +34,35 @@ class Solution:
 """
 Runtime: 36 ms, faster than 8.29% of Python3 online submissions for Binary Tree Preorder Traversal.
 Memory Usage: 12.7 MB, less than 100.00% of Python3 online submissions for Binary Tree Preorder Traversal.
+"""
+
+
+# Solution 2: iteration
+
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
+        res, visit = [], []
+        if not root:  # corner case
+            return res
+        visit.append(root)  # the first element should be visited (root)
+        while visit:
+            node = visit.pop()  # the current node to be popped
+            # append the value of the current node to the output array
+            res.append(node.val)
+            if node.right:
+                visit.append(node.right)  # right first in preorder traversal
+            if node.left:
+                visit.append(node.left)
+        return res
+
+
+"""
+Runtime: 28 ms, faster than 63.67% of Python3 online submissions for Binary Tree Preorder Traversal.
+Memory Usage: 12.7 MB, less than 100.00% of Python3 online submissions for Binary Tree Preorder Traversal.
+"""
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(1)
 """
