@@ -20,7 +20,7 @@ class Solution:
                 return True
             elif target < matrix[mid // n][mid % n]:
                 right = mid - 1
-            else:  # target > matrix[mid//n][mid%n]
+            else:  # target > matrix[mid // n][mid % n]
                 left = mid + 1
         return False  # not found
 
