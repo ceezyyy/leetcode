@@ -1,7 +1,7 @@
 """
-@Title: 20. Valid Parentheses
-@Tag: stack
-@Date: Oct-24 2019
+@Title: 020. Valid Parentheses
+@Tag: stack / string
+@Date: Jan-27 2020
 @Author: ceezyyy
 @Difficulty: Easy
 """
@@ -9,22 +9,25 @@
 
 class Solution:
     def isValid(self, s: str) -> bool:
-        stack = []  # type(stack)->list
-        mapping = {')': '(', '}': '{', ']': '['}  # dict[closing]=opening
-        for c in s:
-            if c in mapping:  # closing bracket
-                top_element = stack.pop() if stack else '#'
-                if(mapping[c] != top_element):
+        if len(s) % 2 != 0:
+            return False
+        mapping, stack = {")": "(", "]": "[", "}": "{"}, []
+        for ch in s:
+            if ch in mapping.keys():  # right
+                if not stack or stack.pop() != mapping[ch]:
                     return False
-            else:
-                stack.append(c)  # opening bracket
+            else:  # left
+                stack.append(ch)
         return not stack
 
 
-def test():
-    s = Solution()
-    print(s.isValid("(()[]{}"))
+"""
+Runtime: 24 ms, faster than 90.29% of Python3 online submissions for Valid Parentheses.
+Memory Usage: 12.9 MB, less than 100.00% of Python3 online submissions for Valid Parentheses.
+"""
 
 
-if __name__ == "__main__":
-    test()
+"""
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
