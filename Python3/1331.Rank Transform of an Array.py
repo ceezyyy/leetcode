@@ -23,6 +23,6 @@ Memory Usage: 30.6 MB, less than 100.00% of Python3 online submissions for Rank 
 
 
 """
-Time Complexity: O(n)
+Time Complexity: O(nlogn)
 Space Complexity: O(n)
 """
