@@ -9,20 +9,18 @@
 
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
-        # left boundary, right boundary, target sum, total number of elements
         left, right, temp, k, n = 0, 0, 0, sum(A) // 3, len(A)
         for i, a in enumerate(A):  # left part (forward)
             temp += a
             if temp == k:
-                left = i  # the position of the left part
+                left = i  # left boundary
                 break
         temp = 0  # reset
         for j, a in reversed(list(enumerate(A))):  # right part (backward)
             temp += a
             if temp == k:
-                right = j  # the position of the right part
+                right = j  # right boundary
                 break
-        # "sum(A[left+1:right])" -> the middle part
         return sum(A[left + 1:right]) == k and left < right
 
 
