@@ -9,7 +9,7 @@
 
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
-        temp, k, n = 0, sum(A) // 3, len(A)
+        temp, k, n = 0, sum(A) // 3, len(A)  # "k" -> target sum
         for i, a in enumerate(A):  # left part (forward)
             temp += a
             if temp == k:
