@@ -15,7 +15,7 @@ class Solution:
         for i in range(31):  # check "0 - 30"(-th)
             if (i == 0 or i == 30):  # e.g: 60, 180, 360  /  30, 90, 120
                 n = freq[i]
-                res += n * (n - 1) // 2  # combination
+                res += n * (n - 1) // 2  # combination (pick two of them up)
             else:
                 res += freq[i] * freq[60 - i]  # permutation
         return res
