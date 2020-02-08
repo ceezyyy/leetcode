@@ -12,7 +12,7 @@ class Solution:
         freq, res = [0] * 60, 0
         for t in T:  # count the freq
             freq[t % 60] += 1
-        for i in range(31):  # check "0 - 30" -> the i-th
+        for i in range(31):  # check "0 - 30"(-th)
             if (i == 0 or i == 30):  # e.g: 60, 180, 360  /  30, 90, 120
                 n = freq[i]
                 res += n * (n - 1) // 2  # combination
