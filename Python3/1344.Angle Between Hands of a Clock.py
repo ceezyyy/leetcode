@@ -10,7 +10,7 @@
 class Solution:
     def angleClock(self, h: int, m: int) -> float:
         # "m / 60 * 5" means how the minute hand affects the position of the hour hand
-        h = 0 + m / 60 * 5 if h == 12 else h * 5 + m / 60 * 5  # convert hr to min
+        h = 0 + m / 60 * 5 if h == 12 else h * 5 + m / 60 * 5  # convert hrs to mins
         return min(abs(m - h) * 6, 360 - abs(m - h) * 6)  # the smaller one
 
 
