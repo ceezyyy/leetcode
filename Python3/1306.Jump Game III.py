@@ -22,3 +22,9 @@ class Solution:
 Runtime: 248 ms, faster than 45.58% of Python3 online submissions for Jump Game III.
 Memory Usage: 19.2 MB, less than 100.00% of Python3 online submissions for Jump Game III.
 """
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
