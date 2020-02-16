@@ -7,6 +7,9 @@
 """
 
 
+# Solution one:
+
+
 class Solution:
     def groupThePeople(self, S: List[int]) -> List[List[int]]:
         n, res = len(S), []  # people
@@ -23,6 +26,17 @@ class Solution:
                 if g:  # not empty
                     res.append(g)
         return res
+
+
+# Solution two:
+
+
+class Solution:
+    def groupThePeople(self, S: List[int]) -> List[List[int]]:
+        cnt = collections.defaultdict(list)
+        for i, size in enumerate(S):
+            cnt[size].append(i)
+        return [arr[i:i+size] for size, arr in cnt.items() for i in range(0, len(arr), size)]
 
 
 """
