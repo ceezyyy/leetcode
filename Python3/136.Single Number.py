@@ -7,6 +7,9 @@
 """
 
 
+# Solution one(sort & one pass):
+
+
 class Solution:
     def singleNumber(self, N: List[int]) -> int:
         N, n = sorted(N), len(N)
@@ -30,4 +33,30 @@ Memory Usage: 15.2 MB, less than 8.20% of Python3 online submissions for Single 
 """
 Time Complexity: O(nlogn)
 Space Complexity: O(1)
+"""
+
+
+# Solution two(hashset & one pass)
+
+
+class Solution:
+    def singleNumber(self, N: List[int]) -> int:
+        s = set()
+        for n in N:
+            if n not in s:
+                s.add(n)
+            else:
+                s.remove(n)
+        return s.pop()
+
+
+"""
+Runtime: 84 ms, faster than 85.75% of Python3 online submissions for Single Number.
+Memory Usage: 15 MB, less than 21.31% of Python3 online submissions for Single Number.
+"""
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(n)
 """
