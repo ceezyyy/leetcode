@@ -7,6 +7,9 @@
 """
 
 
+# Solution one(sort & one pass)
+
+
 class Solution:
     def singleNumber(self, N: List[int]) -> int:
         N = sorted(N)
@@ -30,4 +33,31 @@ Memory Usage: 14.4 MB, less than 73.33% of Python3 online submissions for Single
 """
 Time Complexity: O(nlogn)
 Space Complexity: O(1)
+"""
+
+
+# Solution two(hashmap & two pass)
+
+
+import collections
+
+class Solution:
+    def singleNumber(self, N: List[int]) -> int:
+        d = collections.defaultdict(int)
+        for n in N:
+            d[n] += 1
+        for n in N:
+            if d[n] == 1:
+                return n
+
+
+"""
+Runtime: 52 ms, faster than 92.69% of Python3 online submissions for Single Number II.
+Memory Usage: 14.6 MB, less than 53.33% of Python3 online submissions for Single Number II.
+"""
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(n)
 """
