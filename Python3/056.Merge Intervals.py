@@ -27,6 +27,6 @@ Memory Usage: 14.6 MB, less than 6.52% of Python3 online submissions for Merge I
 
 
 """
-Time Complexity: O(n)
+Time Complexity: O(nlogn)
 Space Complexity: O(n)
 """
