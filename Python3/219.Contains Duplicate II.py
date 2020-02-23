@@ -12,12 +12,12 @@ import collections as c
 
 class Solution:
     def containsNearbyDuplicate(self, A: List[int], k: int) -> bool:
-        d, flag = c.defaultdict(int), False
-        for i, a in enumerate(A):
-            if a in d:
+        d, flag = c.defaultdict(int), False  # hashset, flag
+        for i, a in enumerate(A):  
+            if a in d:  # appeared more than once
                 if i - d[a] <= k:
                     flag = True
-            d[a] = i
+            d[a] = i  # value: position
         return flag
 
 
