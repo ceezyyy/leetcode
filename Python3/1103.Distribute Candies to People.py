@@ -10,13 +10,14 @@
 class Solution:
     def distributeCandies(self, c: int, n: int) -> List[int]:
         res = [0] * n
-        i, per = 0, 1
-        while c > 0:
-            if i == n:
+        i, per = 0, 1  # i: index, per: the money for i-th person(each turn)
+        while c > 0:  # until we run out of candies
+            if i == n:  # last person -> first person
                 i = 0
             res[i], c, per = res[i] + per, c - per, per + 1
+            # the last person receive all of our remaining candies
             per = c if c < per + 1 else per
-            i += 1
+            i += 1  # go on
         return res
 
 
