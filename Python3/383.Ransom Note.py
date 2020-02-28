@@ -27,7 +27,7 @@ class Solution:
         return True
 
 
-# Approach 2: (array)
+# Approach 2: (Array)
 
 
 class Solution:
