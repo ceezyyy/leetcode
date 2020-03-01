@@ -16,4 +16,5 @@ LeetCode problems' solutions &amp; some study notes
     <br>[102.Binary Tree Level Order Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/102.Binary%20Tree%20Level%20Order%20Traversal.py)
     <br>[107.Binary Tree Level Order Traversal II](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/107.Binary%20Tree%20Level%20Order%20Traversal%20II.py)
     <br>[103.Binary Tree Zigzag Level Order Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.py)
+    <br>[144.Binary Tree Preorder Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/144.Binary%20Tree%20Preorder%20Traversal.py)
   
