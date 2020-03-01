@@ -21,8 +21,8 @@ class Solution:
             return []
         res, queue = [], [root]
         while queue:  # "still waiting in line"
-            level, size = [], len(queue)
-            for i in range(size):
+            level, n = [], len(queue)
+            for i in range(n):
                 # pop the first element in the queue each time
                 node = queue.pop(0)
                 level.append(node.val)
