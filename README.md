@@ -1,7 +1,7 @@
 # LeetCode
 LeetCode problems' solutions &amp; some study notes
 
-### Data Structures
+## Data Structures
 * Array
 * Linked list
 * Hash table
@@ -9,3 +9,10 @@ LeetCode problems' solutions &amp; some study notes
 * String
 * Queue
 * Stack
+
+
+### Binary Tree
+  * Traversal
+    <br>[102.Binary Tree Level Order Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/102.Binary%20Tree%20Level%20Order%20Traversal.py)
+    <br>[107.Binary Tree Level Order Traversal II](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/107.Binary%20Tree%20Level%20Order%20Traversal%20II.py)
+  
