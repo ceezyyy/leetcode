@@ -1,7 +1,7 @@
 """
 @Title: 144. Binary Tree Preorder Traversal
 @Tag: binary tree
-@Date: Mar-01 2020
+@Date: Mar-03 2020
 @Author: ceezyyy
 @Difficulty: Medium
 """
@@ -17,19 +17,22 @@
 
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
-        res, stack = [], [root]
+        res, stack = [], [(root, False)]
         while stack:
-            node = stack.pop()  # LIFO
+            node, visited = stack.pop()  # the last element
             if node:
-                res.append(node.val)
-                stack.append(node.right)
-                stack.append(node.left)
+                if visited:
+                    res.append(node.val)
+                else:  # preorder: root -> left -> right
+                    stack.append((node.right, False))
+                    stack.append((node.left, False))
+                    stack.append((node, True))
         return res
 
 
 """
-Runtime: 28 ms, faster than 64.97% of Python3 online submissions for Binary Tree Preorder Traversal.
-Memory Usage: 12.7 MB, less than 100.00% of Python3 online submissions for Binary Tree Preorder Traversal.
+Runtime: 20 ms, faster than 96.33% of Python3 online submissions for Binary Tree Preorder Traversal.
+Memory Usage: 12.8 MB, less than 100.00% of Python3 online submissions for Binary Tree Preorder Traversal.
 """
 
 
