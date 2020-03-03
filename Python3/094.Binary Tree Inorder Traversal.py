@@ -1,7 +1,7 @@
 """
 @Title: 094. Binary Tree Inorder Traversal
 @Tag: binary tree
-@Date: Feb-03 2020
+@Date: Mar-03 2020
 @Author: ceezyyy
 @Difficulty: Medium
 """
@@ -19,13 +19,13 @@ class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         res, stack = [], [(root, False)]
         while stack:
-            node, visited = stack.pop()  # the first element from the stack
+            node, visited = stack.pop()  # the last element
             if node:
                 if visited:
                     res.append(node.val)
-                else:
+                else:  # inorder: left -> root -> right
                     stack.append((node.right, False))
-                    stack.append((node, True))  # as the "root"
+                    stack.append((node, True))
                     stack.append((node.left, False))
         return res
 
