@@ -21,4 +21,5 @@ LeetCode problems' solutions &amp; some study notes
     <br>[145.Binary Tree Postorder Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/145.Binary%20Tree%20Postorder%20Traversal.py)
    * Concept
     <br>[100.Same Tree](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/100.Same%20Tree.py)
+    <br>[101.Symmetric Tree](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/101.Symmetric%20Tree.py)
   
