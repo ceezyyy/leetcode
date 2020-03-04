@@ -7,7 +7,7 @@
 """
 
 
-# Solution one:
+# Solution 1:
 
 class Solution:
     def reverseString(self, s: List[str]) -> None:
@@ -47,4 +47,25 @@ Memory Usage: 17.1 MB, less than 100.00% of Python3 online submissions for Rever
 """
 Time Complexity: O(n)
 Space Complexity: O(1)
+"""
+
+
+# Solution 3: Recursion
+
+class Solution:
+    def reverseString(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        def recursive(left, right):
+            if left >= right:  # exit
+                return s
+            s[left], s[right] = s[right], s[left]  # swap
+            recursive(left + 1, right - 1)
+        return recursive(0, len(s) - 1)
+
+
+"""
+Runtime: 224 ms, faster than 26.55% of Python3 online submissions for Reverse String.
+Memory Usage: 42.9 MB, less than 5.81% of Python3 online submissions for Reverse String.
 """
