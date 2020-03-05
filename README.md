@@ -22,4 +22,5 @@ LeetCode problems' solutions &amp; some study notes
    * Concept
     <br>[100.Same Tree](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/100.Same%20Tree.py)
     <br>[101.Symmetric Tree](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/101.Symmetric%20Tree.py)
+    <br>[965.Univalued Binary Tree](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/965.Univalued%20Binary%20Tree.py)
   
