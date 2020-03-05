@@ -16,19 +16,16 @@
 
 class Solution:
     def isUnivalTree(self, root: TreeNode) -> bool:
-        vals = []
+        return self.dfs(root, root.val)
 
-        def dfs(root):
-            if root:
-                vals.append(root.val)
-                dfs(root.left)
-                dfs(root.right)
-        dfs(root)
-        return len(set(vals)) == 1
+    def dfs(self, node, v):
+        if node:
+            return False if node.val != v else self.dfs(node.left, v) and self.dfs(node.right, v)
+        return True
 
 
 """
-Runtime: 24 ms, faster than 92.45% of Python3 online submissions for Univalued Binary Tree.
+Runtime: 24 ms, faster than 98.45% of Python3 online submissions for Univalued Binary Tree.
 Memory Usage: 12.8 MB, less than 100.00% of Python3 online submissions for Univalued Binary Tree.
 """
 
