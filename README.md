@@ -21,6 +21,8 @@ LeetCode problems' solutions &amp; some study notes
     <br>[103.Binary Tree Zigzag Level Order Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.py)
     <br>[515.Find Largest Value in Each Tree Row](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/515.Find%20Largest%20Value%20in%20Each%20Tree%20Row.py)
     <br>[199.Binary Tree Right Side View](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/199.Binary%20Tree%20Right%20Side%20View.py)
+    <br>*N-arry tree*
+    <br>[589.N-ary Tree Preorder Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/589.N-ary%20Tree%20Preorder%20Traversal.py)
    * Concept
     <br>[100.Same Tree](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/100.Same%20Tree.py)
     <br>[101.Symmetric Tree](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/101.Symmetric%20Tree.py)
