@@ -11,7 +11,7 @@ LeetCode problems' solutions &amp; some study notes
 * Stack
 
 
-### Binary Tree (DFS + BFS)
+### Binary Tree 
   * Traversal
       <br>[144.Binary Tree Preorder Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/144.Binary%20Tree%20Preorder%20Traversal.py)
     <br>[094.Binary Tree Inorder Traversal](https://github.com/ceezyyy/LeetCode-daily/blob/master/Python3/094.Binary%20Tree%20Inorder%20Traversal.py)
