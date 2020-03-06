@@ -1,7 +1,7 @@
 """
 @Title: 589. N-ary Tree Preorder Traversal
 @Tag: N-ary tree
-@Date: Jan-19 2020
+@Date: Feb-06 2020
 @Author: ceezyyy
 @Difficulty: Easy
 """
@@ -18,18 +18,23 @@ class Node:
 
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
-        stack, res = [], []
-        if not root:  # corner case
-            return stack
-        stack.append(root)
+        if not root:
+            return []
+        stack, res = [root], []
         while stack:
             node = stack.pop()
             res.append(node.val)
-            stack += [child for child in node.children[::-1] if node.children]
+            stack.extend([child for child in node.children][::-1])
         return res
 
 
 """
-Runtime: 52 ms, faster than 53.10% of Python3 online submissions for N-ary Tree Preorder Traversal.
+Runtime: 52 ms, faster than 58.70% of Python3 online submissions for N-ary Tree Preorder Traversal.
 Memory Usage: 14.7 MB, less than 100.00% of Python3 online submissions for N-ary Tree Preorder Traversal.
+"""
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(n)
 """
