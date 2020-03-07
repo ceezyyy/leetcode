@@ -10,6 +10,7 @@ LeetCode problems' solutions &amp; some study notes
 * Queue
 * Stack
 
+<br>![Aaron Swartz](https://raw.githubusercontent.com/ceezyyy/LeetCode-daily/master/Data%20Structures.png)
 
 ### Binary Tree 
   * Traversal
