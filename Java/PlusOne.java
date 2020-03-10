@@ -3,7 +3,7 @@ class Solution {
         for (int i = A.length - 1; i >= 0; i--) {
             /*
              * From the very beginning
-             * if current bit is greater less than 9
+             * if current bit is less than 9
              * plus one and return the digit immediately
              * else set it as zero, then continue
              */
