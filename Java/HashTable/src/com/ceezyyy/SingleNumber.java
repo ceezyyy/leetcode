@@ -1,3 +1,12 @@
+/*
+ * Topic: 136. Single Number
+ * Tag: HashSet
+ * Updated time: 03/12/2020
+ */
+
+
+import java.util.HashSet;
+
 class Solution {
     public int singleNumber(int[] nums) {
         HashSet<Integer> set = new HashSet<Integer>();
@@ -14,3 +23,10 @@ class Solution {
         return -1;
     }
 }
+
+
+/*
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
