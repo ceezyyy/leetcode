@@ -1,3 +1,10 @@
+/*
+ * Topic: 169. Majority Element
+ * Tag: HashMap
+ * Updated time: 03/12/2020
+ */
+
+
 class Solution {
     public int majorityElement(int[] nums) {
         if (nums.length == 1) {
@@ -14,3 +21,15 @@ class Solution {
         return -1;
     }
 }
+
+
+/*
+Runtime: 11 ms, faster than 26.02% of Java online submissions for Majority Element.
+Memory Usage: 47.2 MB, less than 5.15% of Java online submissions for Majority Element.
+*/
+
+
+/*
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
