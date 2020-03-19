@@ -2,7 +2,7 @@
 LeetCode problems' solutions &amp; some study notes
 
 ## Top Interview Questions
-![Aaron Swartz](https://github.com/ceezyyy/LeetCode-daily/blob/master/TOP%20INTERVIEW%20Qs.png)
+![Aaron Swartz](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW.png)
 
 
 ## Data Structures
