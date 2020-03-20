@@ -7,7 +7,7 @@
 """
 
 
-# Solution one(sort & one pass):
+# Solution 1: (Sort & One Pass)
 
 
 class Solution:
@@ -36,7 +36,7 @@ Space Complexity: O(1)
 """
 
 
-# Solution two(hashset & one pass)
+# Solution 2: (Hashset & One pass)
 
 
 class Solution:
@@ -59,4 +59,27 @@ Memory Usage: 15 MB, less than 21.31% of Python3 online submissions for Single N
 """
 Time Complexity: O(n)
 Space Complexity: O(n)
+"""
+
+
+# Approach 3: (Bit Manipulation)
+
+
+class Solution:
+    def singleNumber(self, N: List[int]) -> int:
+        a = 0
+        for n in N:
+            a ^= n
+        return a
+
+
+"""
+Runtime: 80 ms, faster than 95.71% of Python3 online submissions for Single Number.
+Memory Usage: 15.3 MB, less than 8.20% of Python3 online submissions for Single Number.
+"""
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(1)
 """
