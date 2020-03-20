@@ -24,6 +24,6 @@ class Solution {
 }
 
 
-// Time Complexity: O()
+// Time Complexity: O(log10)
 // Space Complexity: O(1)
 
