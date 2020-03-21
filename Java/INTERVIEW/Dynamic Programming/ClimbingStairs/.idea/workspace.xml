@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dfbcde7-7672-4953-b488-45202389d37a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a87fb03-d5fd-48ac-80a2-2b2b4bdd0dd4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +14,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
-  </component>
-  <component name="ProjectId" id="1ZNyCKn0lhStzoFKudHbB5E21tR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ZRQkTKJFL5B40IDMQqr7bV7hSB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,12 +23,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ReverseInteger" />
+      <module name="ClimbingStairs" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -53,14 +46,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6dfbcde7-7672-4953-b488-45202389d37a" name="Default Changelist" comment="" />
-      <created>1584693717683</created>
+      <changelist id="4a87fb03-d5fd-48ac-80a2-2b2b4bdd0dd4" name="Default Changelist" comment="" />
+      <created>1584799570483</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584693717683</updated>
-      <workItem from="1584693721733" duration="816000" />
-      <workItem from="1584712228349" duration="25000" />
-      <workItem from="1584783526416" duration="52000" />
+      <updated>1584799570483</updated>
+      <workItem from="1584799575236" duration="193000" />
     </task>
     <servers />
   </component>
@@ -68,29 +59,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1236" height="176" key="GridCell.Tab.0.bottom" timestamp="1584694538337">
+    <state width="1222" height="176" key="GridCell.Tab.0.bottom" timestamp="1584799767607">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1584694538337" />
-    <state width="1236" height="176" key="GridCell.Tab.0.center" timestamp="1584694538337">
+    <state width="1222" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1584799767607" />
+    <state width="1222" height="176" key="GridCell.Tab.0.center" timestamp="1584799767607">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1584694538337" />
-    <state width="1236" height="176" key="GridCell.Tab.0.left" timestamp="1584694538337">
+    <state width="1222" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1584799767607" />
+    <state width="1222" height="176" key="GridCell.Tab.0.left" timestamp="1584799767607">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1584694538337" />
-    <state width="1236" height="176" key="GridCell.Tab.0.right" timestamp="1584694538337">
+    <state width="1222" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1584799767607" />
+    <state width="1222" height="176" key="GridCell.Tab.0.right" timestamp="1584799767607">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1584694538337" />
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1584783528682">
+    <state width="1222" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1584799767607" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1584799575058">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1584783528682" />
-    <state x="91" y="0" key="new project wizard" timestamp="1584783577380">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1584783577380" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1584799575058" />
   </component>
 </project>
