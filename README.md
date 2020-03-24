@@ -1,4 +1,4 @@
-# LeetCode
+# LeetCode-Daily
 
 
 [![](https://img.shields.io/badge/LeetCode-Daily-orange?style=flat-square)](https://github.com/ceezyyy/LeetCode-daily)
