@@ -44,6 +44,6 @@ class Solution {
 }
 
 
-// Time Complexity: O()
-// Space Complexity: O()
+// Time Complexity: O(n * n!)
+// Space Complexity: O(n)
 

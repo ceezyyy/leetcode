@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8d54163-c828-4240-82c8-ef1f761deadc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="4316a548-f1d8-471f-a0ac-3af3833903b0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +14,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
-  </component>
-  <component name="ProjectId" id="1Zc2peeAa0WHU6Zg7Js2AW7T6gD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ZcIzwF6lQoa1sWN8zxUx7CTRLm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,12 +23,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LC/Java/INTERVIEW/Backtracking/SubsetsII" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SubsetsII" />
+      <module name="MiddleoftheLinkedList" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -53,13 +47,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8d54163-c828-4240-82c8-ef1f761deadc" name="Default Changelist" comment="" />
-      <created>1585124245495</created>
+      <changelist id="4316a548-f1d8-471f-a0ac-3af3833903b0" name="Default Changelist" comment="" />
+      <created>1585132222435</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585124245495</updated>
-      <workItem from="1585124249023" duration="145000" />
-      <workItem from="1585138263370" duration="30000" />
+      <updated>1585132222435</updated>
+      <workItem from="1585132226538" duration="277000" />
+      <workItem from="1585137475037" duration="4000" />
+      <workItem from="1585137565474" duration="208000" />
+      <workItem from="1585138051229" duration="2000" />
+      <workItem from="1585138229504" duration="30000" />
     </task>
     <servers />
   </component>
@@ -67,25 +64,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1236" height="176" key="GridCell.Tab.0.bottom" timestamp="1585124392983">
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1585138258715">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1585124392983" />
-    <state width="1236" height="176" key="GridCell.Tab.0.center" timestamp="1585124392983">
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1585138258715" />
+    <state width="1236" height="176" key="GridCell.Tab.0.bottom" timestamp="1585137773138">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1585124392983" />
-    <state width="1236" height="176" key="GridCell.Tab.0.left" timestamp="1585124392983">
+    <state width="1236" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1585137773138" />
+    <state width="1236" height="176" key="GridCell.Tab.0.center" timestamp="1585137773138">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1585124392983" />
-    <state width="1236" height="176" key="GridCell.Tab.0.right" timestamp="1585124392983">
+    <state width="1236" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1585137773138" />
+    <state width="1236" height="176" key="GridCell.Tab.0.left" timestamp="1585137773138">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1585124392983" />
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1585124249710">
+    <state width="1236" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1585137773138" />
+    <state width="1236" height="176" key="GridCell.Tab.0.right" timestamp="1585137773138">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1585124249710" />
+    <state width="1236" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1585137773138" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1585138228571">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1585138228571" />
   </component>
 </project>

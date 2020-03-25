@@ -46,5 +46,5 @@ class Solution {
 
 
 // Time Complexity: O(n^2)
-// Space Complexity: O(1)  return array is not considered as an extra space
+// Space Complexity: O(n)  return array is not considered as an extra space
 

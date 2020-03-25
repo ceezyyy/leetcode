@@ -46,5 +46,5 @@ class Solution {
 
 
 // Time Complexity: O(n * n!)
-// Space Complexity: O(1)  result is not considered as the extra space
+// Space Complexity: O(n)  result is not considered as the extra space
 
