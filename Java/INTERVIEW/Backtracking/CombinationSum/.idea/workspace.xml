@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80bb94a6-7b3a-4c68-bb22-1c6100fe2682" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CombinationSumII/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CombinationSumII/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CombinationSumII/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CombinationSumII/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Permutations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Permutations/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Permutations/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Permutations/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Subsets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Subsets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Subsets/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Subsets/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SubsetsII/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SubsetsII/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SubsetsII/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SubsetsII/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +60,7 @@
       <updated>1584974256385</updated>
       <workItem from="1584974261678" duration="424000" />
       <workItem from="1585138262948" duration="78000" />
+      <workItem from="1585140293173" duration="57000" />
     </task>
     <servers />
   </component>
@@ -76,6 +68,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1585140337453">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1585140337453" />
     <state width="1236" height="176" key="GridCell.Tab.0.bottom" timestamp="1584974685071">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -92,10 +88,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1236" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1584974685071" />
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1584974296643">
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1585140332451">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1584974296643" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1585140332451" />
+    <state x="91" y="0" key="new project wizard" timestamp="1585140349739">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1585140349739" />
     <state x="297" y="161" key="run.anything.popup" timestamp="1584974352103">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
