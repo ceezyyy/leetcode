@@ -30,9 +30,9 @@ You may assume that you have an infinite number of each kind of coin.
 
 首先我们先从一般的角度来思考这道问题：
 
-![](Coin Change.assets/pic.jpg)
+![image-20200401160717677](image-20200401160717677.png)
 
-
+ 
 
 顶点值代表剩下所需凑齐的金额，边代表我们每次的选择，我们的目标是是获得最少的边，让顶点值为0，即用最少的```coin```来凑齐我们的 ```amount``` 。
 
@@ -52,7 +52,7 @@ You may assume that you have an infinite number of each kind of coin.
 
 
 
-![](Coin Change.assets/322_coin_change_table.png)
+![image-20200401160803481](image-20200401160803481.png)
 
 
 
