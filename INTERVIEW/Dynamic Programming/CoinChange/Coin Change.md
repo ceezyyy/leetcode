@@ -30,9 +30,7 @@ You may assume that you have an infinite number of each kind of coin.
 
 首先我们先从一般的角度来思考这道问题：
 
-
-
-![](D:\LC\INTERVIEW\Dynamic Programming\CoinChange\pic.jpg)
+![](Coin Change.assets/pic.jpg)
 
 
 
@@ -54,7 +52,7 @@ You may assume that you have an infinite number of each kind of coin.
 
 
 
-![](D:\LC\INTERVIEW\Dynamic Programming\CoinChange\322_coin_change_table.png)
+![](Coin Change.assets/322_coin_change_table.png)
 
 
 
