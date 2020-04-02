@@ -18,5 +18,5 @@ LeetCode problems' solutions &amp; some study notes
 
 ### Two Pointers
 
-[283. Move Zeroes]()
+[283. Move Zeroes](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Two%20Pointers/MoveZeroes/Move%20Zeros.md)
 
