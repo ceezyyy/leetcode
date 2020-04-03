@@ -12,11 +12,11 @@ LeetCode problems' solutions &amp; some study notes
 
 ### Dynamic Programming
 
-[322. Coin change](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Dynamic%20Programming/CoinChange/Coin%20Change.md)
+- [322. Coin change](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Dynamic%20Programming/CoinChange/Coin%20Change.md)
 
 
 
 ### Two Pointers
 
-[283. Move Zeroes](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Two%20Pointers/MoveZeroes/Move%20Zeros.md)
+- [283. Move Zeroes](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Two%20Pointers/MoveZeroes/Move%20Zeros.md)
 
