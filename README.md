@@ -20,3 +20,8 @@ LeetCode problems' solutions &amp; some study notes
 
 - [283. Move Zeroes](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Two%20Pointers/MoveZeroes/Move%20Zeros.md)
 
+  
+
+### Stack & Queue
+
+- [20. Valid Parentheses]()
