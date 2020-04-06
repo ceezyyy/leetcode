@@ -12,7 +12,7 @@ LeetCode problems' solutions &amp; some study notes
 
 ### Stack & Queue
 
-- [20. Valid Parentheses](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Stack %26 Queue/ValidParentheses/notes/Valid Parentheses.md)
+- [20. Valid Parentheses](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Stack%20%26%20Queue/ValidParentheses/notes/Valid%20Parentheses.md)
 
 ### Dynamic Programming
 
