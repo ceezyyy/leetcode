@@ -30,3 +30,7 @@ LeetCode problems' solutions &amp; some study notes
 
 - [Quick Sort]()
 
+<<<<<<< HEAD
+=======
+- [20. Valid Parentheses](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Stack%20%26%20Queue/ValidParentheses/notes/Valid%20Parentheses.md)
+>>>>>>> 9a43f3dd161e24d2c072908dd6523ba46649a690
