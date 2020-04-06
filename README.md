@@ -10,6 +10,10 @@ LeetCode problems' solutions &amp; some study notes
 
 
 
+### Stack & Queue
+
+- [20. Valid Parentheses](
+
 ### Dynamic Programming
 
 - [322. Coin change](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Dynamic%20Programming/CoinChange/Coin%20Change.md)
@@ -22,6 +26,7 @@ LeetCode problems' solutions &amp; some study notes
 
   
 
-### Stack & Queue
+### Sorting
 
-- [20. Valid Parentheses]()
+- [Quick Sort]()
+
