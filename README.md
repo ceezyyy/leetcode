@@ -24,4 +24,4 @@ LeetCode problems' solutions &amp; some study notes
 
 ### Sorting
 
-- [Quick Sort](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Sorting/QuickSort/QuickSort.md)
+- Quick Sort
