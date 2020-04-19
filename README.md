@@ -12,15 +12,15 @@ LeetCode problems' solutions &amp; some study notes
 
 ### Stack & Queue
 
-- [20. Valid Parentheses](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Stack%20%26%20Queue/ValidParentheses/notes/Valid%20Parentheses.md)
+- [Valid Parentheses](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Stack%20%26%20Queue/ValidParentheses/notes/Valid%20Parentheses.md)
 
 ### Dynamic Programming
 
-- [322. Coin change](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Dynamic%20Programming/CoinChange/Coin%20Change.md)
+- [Coin change](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Dynamic%20Programming/CoinChange/Coin%20Change.md)
 
 ### Two Pointers
 
-- [283. Move Zeroes](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Two%20Pointers/MoveZeroes/Move%20Zeros.md)
+- [Move Zeroes](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Two%20Pointers/MoveZeroes/Move%20Zeros.md)
 
 ### Sorting
 
