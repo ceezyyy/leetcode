@@ -12,18 +12,4 @@ LeetCode problems' solutions &amp; some study notes
 
 
 
-## Data Structures
-
-### Array, String
-
-- [Product of Array Except Self](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Array%2C%20String/ProductofArrayExceptSelf/notes/ProductofArrayExceptSelf.md)
-
-
-### Stack & Queue
-
-- [Valid Parentheses](https://github.com/ceezyyy/LeetCode-daily/blob/master/INTERVIEW/Stack%20%26%20Queue/ValidParentheses/notes/Valid%20Parentheses.md)
-
-### Hashtable
-
-
 
