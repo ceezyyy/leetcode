@@ -12,7 +12,7 @@ LeetCode problems' solutions &amp; some study notes
 
 ## Explore
 
-- [Arrays 101]()
+- [Arrays 101](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/index/Arrays101/Arrays101_index.md)
 - Array And String 
 - Binary Search
 - Binary Search Tree
