@@ -29,3 +29,7 @@ class Solution {
         return digit;
     }
 }
+
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)

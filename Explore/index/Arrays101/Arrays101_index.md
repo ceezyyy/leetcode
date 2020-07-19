@@ -1,7 +1,7 @@
 # Arrays 101
 
 - Max Consecutive Ones
-- [Find Numbers with Even Number of Digits]()
+- [Find Numbers with Even Number of Digits](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/FindNumberswithEvenNumberofDigits/FindNumberswithEvenNumberofDigits.md)
 - Squares of a Sorted Array
 - Duplicate Zeros
 - Merge Sorted Array
