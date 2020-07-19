@@ -2,7 +2,7 @@
 
 - Max Consecutive Ones
 - [Find Numbers with Even Number of Digits](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/FindNumberswithEvenNumberofDigits/FindNumberswithEvenNumberofDigits.md)
-- Squares of a Sorted Array
+- [Squares of a Sorted Array](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/SquaresofaSortedArray/SquaresofaSortedArray.md)
 - Duplicate Zeros
 - Merge Sorted Array
 - Remove Element

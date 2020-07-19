@@ -10,14 +10,10 @@ package SquaresofaSortedArray;
 class Solution {
     public int[] sortedSquares(int[] A) {
 
-        // length of origin array
         int n = A.length;
-        // left pointer
         int left = 0;
-        // right pointer
         int right = n - 1;
         int[] result = new int[n];
-        // index to put in
         int index = n - 1;
 
         while (left <= right) {
