@@ -46,16 +46,9 @@ Only 1771 contains an even number of digits.
 
 
 
-得到的教训：
-
-1. `debug` 很有用
-2. `leetcode` 刷起来
-
 ## 题解
 
 ```java
-package FindNumberswithEvenNumberofDigits;
-
 /**
  * 1295. Find Numbers with Even Number of Digits
  * https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
@@ -76,6 +69,7 @@ class Solution {
     }
 
 
+    // number of digits
     public int countDigit(int num) {
         int digit = 1;
         while ((num / 10) != 0) {
@@ -85,10 +79,6 @@ class Solution {
         return digit;
     }
 }
-
-
-// Time Complexity: O(n)
-// Space Complexity: O(1)
 ```
 
 

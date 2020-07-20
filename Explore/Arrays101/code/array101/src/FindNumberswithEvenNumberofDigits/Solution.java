@@ -20,6 +20,7 @@ class Solution {
     }
 
 
+    // number of digits
     public int countDigit(int num) {
         int digit = 1;
         while ((num / 10) != 0) {

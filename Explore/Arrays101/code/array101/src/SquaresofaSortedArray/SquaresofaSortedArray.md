@@ -47,8 +47,6 @@ Output: [4,9,9,49,121]
 ## 题解
 
 ```java
-package SquaresofaSortedArray;
-
 /**
  * 977. Squares of a Sorted Array
  * https://leetcode.com/problems/squares-of-a-sorted-array/
@@ -60,9 +58,17 @@ class Solution {
     public int[] sortedSquares(int[] A) {
 
         int n = A.length;
+
+        // left pointer
         int left = 0;
+
+        // right pointer
         int right = n - 1;
+
+        // result array
         int[] result = new int[n];
+
+        // the place of current element
         int index = n - 1;
 
         while (left <= right) {

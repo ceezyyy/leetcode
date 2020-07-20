@@ -11,9 +11,17 @@ class Solution {
     public int[] sortedSquares(int[] A) {
 
         int n = A.length;
+
+        // left pointer
         int left = 0;
+
+        // right pointer
         int right = n - 1;
+
+        // result array
         int[] result = new int[n];
+
+        // the place of current element
         int index = n - 1;
 
         while (left <= right) {

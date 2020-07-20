@@ -63,11 +63,6 @@ Explanation: In this case does not exist N and M, such that N = 2 * M.
 ## 题解
 
 ```java
-package CheckIfNandItsDoubleExist;
-
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * 1346. Check If N and Its Double Exist
  * https://leetcode.com/problems/check-if-n-and-its-double-exist/
@@ -88,8 +83,11 @@ class Solution {
                 set.add(arr[i]);
             }
         }
+
         return false;
+
     }
+
 }
 
 
