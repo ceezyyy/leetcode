@@ -5,7 +5,7 @@
 LeetCode problems' solutions &amp; some study notes
 
 ## Top Interview Questions
-![](https://ceezyyy.oss-cn-beijing.aliyuncs.com/img/INTERVIEW.png)
+<div align="center"> <img src="https://ceezyyy.oss-cn-beijing.aliyuncs.com/img/INTERVIEW.png" width="90%"/> </div><br>
 
 ## Explore
 
