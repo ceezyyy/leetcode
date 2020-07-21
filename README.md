@@ -5,7 +5,8 @@
 LeetCode problems' solutions &amp; some study notes
 
 ## Top Interview Questions
-<div align="center"> <img src="/ceezyyy/LeetCode-daily/raw/master/pics/INTERVIEW.png" width="90%"/> </div><br>
+
+<div align="center"> <img src="pics/INTERVIEW.png" width="90%"/> </div><br>
 
 ## Explore
 
