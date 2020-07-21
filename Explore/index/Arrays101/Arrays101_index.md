@@ -8,7 +8,7 @@
 - Remove Element
 - Remove Duplicates from Sorted Array
 - [Check If N and Its Double Exist](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/CheckIfNandItsDoubleExist/CheckIfNandItsDoubleExist.md)
-- Valid Mountain Array
+- [Valid Mountain Array](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/ValidMountainArray/ValidMountainArray.md)
 - Replace Elements with Greatest Element on Right Side
 - Move Zeroes
 - Sort Array By Parity
