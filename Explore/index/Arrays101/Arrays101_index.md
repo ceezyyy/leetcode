@@ -15,4 +15,5 @@
 - Squares of a Sorted Array
 - Height Checker
 - Third Maximum Number
-- Find All Numbers Disappeared in an Array
+- [Find All Numbers Disappeared in an Array](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/FindAllNumbersDisappearedinanArray/\FindAllNumbersDisappearedinanArray.md)
+
