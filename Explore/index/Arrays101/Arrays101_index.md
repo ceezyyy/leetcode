@@ -6,14 +6,14 @@
 - Duplicate Zeros
 - Merge Sorted Array
 - Remove Element
-- Remove Duplicates from Sorted Array
+- [Remove Duplicates from Sorted Array]()
 - [Check If N and Its Double Exist](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/CheckIfNandItsDoubleExist/CheckIfNandItsDoubleExist.md)
 - [Valid Mountain Array](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/ValidMountainArray/ValidMountainArray.md)
 - [Replace Elements with Greatest Element on Right Side](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/ReplaceElementswithGreatestElementonRightSide/ReplaceElementswithGreatestElementonRightSide.md)
 - Move Zeroes
 - [Sort Array By Parity](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/SortArrayByParity/SortArrayByParity.md)
 - Squares of a Sorted Array
-- [Height Checker](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/mdHeightChecker/mdHeightChecker.)
+- [Height Checker](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/HeightChecker/HeightChecker.md)
 - Third Maximum Number
 - [Find All Numbers Disappeared in an Array](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/FindAllNumbersDisappearedinanArray/FindAllNumbersDisappearedinanArray.md)
 
