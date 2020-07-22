@@ -6,7 +6,7 @@
 - Duplicate Zeros
 - Merge Sorted Array
 - Remove Element
-- [Remove Duplicates from Sorted Array]()
+- [Remove Duplicates from Sorted Array](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.md)
 - [Check If N and Its Double Exist](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/CheckIfNandItsDoubleExist/CheckIfNandItsDoubleExist.md)
 - [Valid Mountain Array](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/ValidMountainArray/ValidMountainArray.md)
 - [Replace Elements with Greatest Element on Right Side](https://github.com/ceezyyy/LeetCode-daily/blob/master/Explore/Arrays101/code/array101/src/ReplaceElementswithGreatestElementonRightSide/ReplaceElementswithGreatestElementonRightSide.md)
