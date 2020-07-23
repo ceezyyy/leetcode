@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ExploreCards.iml" filepath="$PROJECT_DIR$/.idea/ExploreCards.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arrays101/arrays101.iml" filepath="$PROJECT_DIR$/arrays101/arrays101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayAndString/arrayAndString.iml" filepath="$PROJECT_DIR$/arrayAndString/arrayAndString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binarySearch/binarySearch.iml" filepath="$PROJECT_DIR$/binarySearch/binarySearch.iml" />
     </modules>
   </component>
 </project>
