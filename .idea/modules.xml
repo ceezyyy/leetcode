@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LC.iml" filepath="$PROJECT_DIR$/.idea/LC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array&amp;string/array&amp;string.iml" filepath="$PROJECT_DIR$/array&amp;string/array&amp;string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binaryTree/binaryTree.iml" filepath="$PROJECT_DIR$/binaryTree/binaryTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bit/bit.iml" filepath="$PROJECT_DIR$/bit/bit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamicProgramming/dynamicProgramming.iml" filepath="$PROJECT_DIR$/dynamicProgramming/dynamicProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graph/graph.iml" filepath="$PROJECT_DIR$/graph/graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greedy/greedy.iml" filepath="$PROJECT_DIR$/greedy/greedy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hashtable/hashtable.iml" filepath="$PROJECT_DIR$/hashtable/hashtable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedList/linkedList.iml" filepath="$PROJECT_DIR$/linkedList/linkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/math/math.iml" filepath="$PROJECT_DIR$/math/math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recursion&amp;backtracking/recursion&amp;backtracking.iml" filepath="$PROJECT_DIR$/recursion&amp;backtracking/recursion&amp;backtracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack&amp;queue/stack&amp;queue.iml" filepath="$PROJECT_DIR$/stack&amp;queue/stack&amp;queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree/tree.iml" filepath="$PROJECT_DIR$/tree/tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twoPointers&amp;SlidingWindow/twoPointers&amp;SlidingWindow.iml" filepath="$PROJECT_DIR$/twoPointers&amp;SlidingWindow/twoPointers&amp;SlidingWindow.iml" />
     </modules>
   </component>
 </project>
