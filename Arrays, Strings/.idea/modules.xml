@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays, Strings.iml" filepath="$PROJECT_DIR$/Arrays, Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays-strings/arrays-strings.iml" filepath="$PROJECT_DIR$/arrays-strings/arrays-strings.iml" />
+    </modules>
+  </component>
+</project>
