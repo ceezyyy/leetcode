@@ -27,7 +27,8 @@ public class Array {
      * @return
      */
     public int findByIndex(int index) {
-        return 0;
+        if (index < 0 && index > capacity) return -1;
+        return data[index];
     }
 
     /**
@@ -38,6 +39,8 @@ public class Array {
      * @return
      */
     public boolean insert(int index, int value) {
+        if (index < 0 && index > capacity) return false;
+
         return true;
     }
 

@@ -1,14 +1,15 @@
-# LeetCode-Daily
+# Algo-Daily
 
-[![](https://img.shields.io/badge/LeetCode-Daily-orange?style=flat-square)](https://github.com/ceezyyy/LeetCode-daily)
+[![](https://img.shields.io/badge/Algo-Daily-orange?style=flat-square)](https://github.com/ceezyyy/daily-algo)
 
-LeetCode problems' solutions &amp; some study notes
+
+Study notes for data structures & algorithms
 
 
 
 ## Data Structures
 
-- Array
+- [Array](https://github.com/ceezyyy/daily-algo/tree/master/Arrays%2C%20Strings/array/src)
 - LinkedList
 - Stack
 - Queue
@@ -39,41 +40,3 @@ LeetCode problems' solutions &amp; some study notes
 ## Top Interview Questions
 
 <div align="center"> <img src="pics/INTERVIEW.png" width="100%"/> </div><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
