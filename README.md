@@ -11,7 +11,7 @@ Study notes for data structures & algorithms
 
 ### Array
 
-- Merge Sorted Array
+- [Merge Sorted Array](https://github.com/ceezyyy/algo/blob/master/Arrays%2C%20Strings/arrays-strings/src/MergeSortedArray/Solution.java)
 
 ### LinkedList
 
