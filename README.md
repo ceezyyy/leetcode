@@ -1,4 +1,4 @@
-# Algo-Daily
+# Algo
 
 [![](https://img.shields.io/badge/Algo-Daily-orange?style=flat-square)](https://github.com/ceezyyy/daily-algo)
 
