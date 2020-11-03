@@ -9,31 +9,51 @@ Study notes for data structures & algorithms
 
 ## Data Structures
 
-- [Array](https://github.com/ceezyyy/daily-algo/tree/master/Arrays%2C%20Strings/array/src)
-- LinkedList
-- Stack
-- Queue
-- Hashtable
-- Binary Tree
-- Heap
-- Skip List
-- Graph
-- Tire
+### Array
+
+- Merge Sorted Array
+
+### LinkedList
+
+### Stack
+
+### Queue
+
+### Hashtable
+
+### Binary Tree
+
+### Heap
+
+### Skip List
+
+### Graph
+
+### Tire
 
 
 
 ## Algorithms
 
-- Recursion
-- Sorting
-- Binary Search
-- Searching
-- Hash
-- Greedy
-- Divide and conquer
-- Backtracking
-- DP
-- KMP
+### Recursion
+
+### Sorting
+
+### Binary Search
+
+### Searching
+
+### Hash
+
+### Greedy
+
+### Divide and conquer
+
+### Backtracking
+
+### DP
+
+### KMP
 
 
 
