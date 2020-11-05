@@ -12,6 +12,8 @@ Table of Contents
 
 ## Explained
 
+**Top-down**
+
 ```
 1. return specific value for null node
 2. update the answer if needed                      // answer <-- params
@@ -24,10 +26,10 @@ Table of Contents
 
 
 
-
+**Bottom-up**
 
 ```
-return if root is null
+1. return if root is null
 2. if root is a leaf node:
 3.      answer = max(answer, depth)         // update the answer if needed
 4. maximum_depth(root.left, depth + 1)      // call the function recursively for left child
@@ -67,7 +69,33 @@ class Solution {
 
 ## Symmetric Tree
 
+```java
+/**
+ * Symmetric Tree
+ */
+class Solution {
 
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    public boolean isSymmetric(TreeNode root) {
+        return isMirror(root, root);
+    }
+
+    // Top-down
+    public boolean isMirror(TreeNode n1, TreeNode n2) {
+        // Corner cases
+        if (n1 == null && n2 == null) return true;
+        if (n1 == null || n2 == null) return false;
+        
+        return (n1.val == n2.val) && isMirror(n1.left, n2.right) && isMirror(n1.right, n2.left);
+    }
+
+}
+```
 
 
 
