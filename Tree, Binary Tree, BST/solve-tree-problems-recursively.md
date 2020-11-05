@@ -6,42 +6,34 @@ Table of Contents
 * [Maximum Depth of Binary Tree](#maximum-depth-of-binary-tree)
 * [Symmetric Tree](#symmetric-tree)
 * [Path Sum](#path-sum)
-* [References](#references)
-
-
-
-## Explained
-
-**Top-down**
-
-```
-1. return specific value for null node
-2. update the answer if needed                      // answer <-- params
-3. left_ans = top_down(root.left, left_params)      // left_params <-- root.val, params
-4. right_ans = top_down(root.right, right_params)   // right_params <-- root.val, params 
-5. return the answer if needed                      // answer <-- left_ans, right_ans
-```
-
-
-
-
-
-**Bottom-up**
-
-```
-1. return if root is null
-2. if root is a leaf node:
-3.      answer = max(answer, depth)         // update the answer if needed
-4. maximum_depth(root.left, depth + 1)      // call the function recursively for left child
-5. maximum_depth(root.right, depth + 1)     // call the function recursively for right child
-```
-
-
-
-
-
 
 ## Maximum Depth of Binary Tree
+
+**Example:**
+
+Given binary tree `[3,9,20,null,null,15,7]`,
+
+```
+    3
+   / \
+  9  20
+    /  \
+   15   7
+```
+
+return its depth = 3.
+
+
+
+**Explained**
+
+对于每个节点来讲，只需要获取左右孩子中最大的深度，再累加 1 即可（从子节点获取最大深度，可采用 `bottom-up` 思想 ）
+
+当节点为空时，返回 0
+
+
+
+**Solution.java**
 
 ```java
 /**
@@ -65,9 +57,41 @@ class Solution {
 
 
 
-
-
 ## Symmetric Tree
+
+**Example**
+
+This binary tree `[1,2,2,3,4,4,3]` is symmetric:
+
+```
+    1
+   / \
+  2   2
+ / \ / \
+3  4 4  3
+```
+
+But the following `[1,2,2,null,3,null,3]` is not:
+
+```
+    1
+   / \
+  2   2
+   \   \
+   3    3
+```
+
+**Explained**
+
+
+
+<div align="center"> <img src="mirror_1.png" width="20%"/> </div><br>
+
+<div align="center"> <img src="mirror_2.png" width="30%"/> </div><br>
+
+
+
+**Solution.java**
 
 ```java
 /**
@@ -99,16 +123,23 @@ class Solution {
 
 
 
-
-
-
-
 ## Path Sum
 
+**Example**
 
+Given the below binary tree and `sum = 22`,
 
+```
+      5
+     / \
+    4   8
+   /   / \
+  11  13  4
+ /  \      \
+7    2      1
+```
 
+return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
+**Explained**
 
-
-## References
