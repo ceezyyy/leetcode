@@ -28,6 +28,8 @@ Study notes for data structures & algorithms
 
 ### Binary Tree
 
+[Fundamental Traversal]()
+
 ### Heap
 
 ### Skip List
