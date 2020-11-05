@@ -3,9 +3,21 @@
 Table of Contents
 -----------------
 
+* [Overview](#overview)
 * [Maximum Depth of Binary Tree](#maximum-depth-of-binary-tree)
 * [Symmetric Tree](#symmetric-tree)
 * [Path Sum](#path-sum)
+
+
+## Overview
+
+本文研究采用递归思想破解二叉树相关题目
+
+- 递归思想分为 `top-down` 和 `bottom-up`，需根据题目自身特点，采用不同思想破题
+
+- 二叉树相关题目中，很多都需要辅助函数，并携带参数以计算值（具体题目具体分析）
+
+
 
 ## Maximum Depth of Binary Tree
 
@@ -101,7 +113,7 @@ class Solution {
 
     public class TreeNode {
         int val;
-        TreeNode left;
+        TreeNode left;f
         TreeNode right;
     }
 
