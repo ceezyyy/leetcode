@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Tree, Binary Tree, BST.iml" filepath="$PROJECT_DIR$/.idea/Tree, Binary Tree, BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inorder-traversal/inorder-traversal.iml" filepath="$PROJECT_DIR$/inorder-traversal/inorder-traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/preorder-traversal/preorder-traversal.iml" filepath="$PROJECT_DIR$/preorder-traversal/preorder-traversal.iml" />
     </modules>
   </component>

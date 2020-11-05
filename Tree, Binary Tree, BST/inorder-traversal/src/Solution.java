@@ -3,7 +3,7 @@ import java.util.List;
 
 
 /**
- * Binary Tree Preorder Traversal
+ * Binary Tree Inorder Traversal
  */
 class Solution {
 
@@ -15,16 +15,16 @@ class Solution {
 
     private List<Integer> result = new LinkedList<>();
 
-    public List<Integer> preorderTraversal(TreeNode root) {
-        pre(root);
+    public List<Integer> inorderTraversal(TreeNode root) {
+        in(root);
         return result;
     }
 
-    public void pre(TreeNode node) {
+    public void in(TreeNode node) {
         if (node == null) return;
+        in(node.left);
         result.add(node.val);
-        pre(node.left);
-        pre(node.right);
+        in(node.right);
     }
 
-} 
+}
