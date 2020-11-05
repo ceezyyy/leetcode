@@ -1,6 +1,6 @@
 # Algo
 
-[![](https://img.shields.io/badge/Algo-Daily-orange?style=flat-square)](https://github.com/ceezyyy/daily-algo)
+[![](https://img.shields.io/badge/Algo-Daily-orange?style=flat-square)	](https://github.com/ceezyyy/daily-algo)
 
 
 Study notes for data structures & algorithms
@@ -29,6 +29,7 @@ Study notes for data structures & algorithms
 ### Binary Tree
 
 - [Fundamental Traversal](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/fundamental-traversal.md)
+- [Solve Tree Problems Recursively]()
 
 ### Heap
 

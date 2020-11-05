@@ -9,8 +9,11 @@ Table of Contents
 * [Postorder](#postorder)
 * [References](#references)
 
-
 ## Explained
+
+> 二叉树拥有天然的递归结构
+
+
 
 <div align="center"> <img src="binary_tree.png" width="30%"/> </div><br>
 
