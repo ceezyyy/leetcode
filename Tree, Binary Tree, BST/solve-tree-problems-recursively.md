@@ -13,7 +13,7 @@ Table of Contents
 
 本文研究采用递归思想破解二叉树相关题目
 
-- 明确函数的定义，不要跳进递归细节，即搞清楚 we`root` 节点它自己要做什么（巧用辅助函数，传递参数）
+- 明确函数的定义，不要跳进递归细节，即搞清楚 `root` 节点它自己要做什么（巧用辅助函数，传递参数）
 - 根据题目特点选择前序（`top-down`），中序，后序（`bottom-up`）递归框架
 
 
@@ -156,9 +156,35 @@ return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
 
 
+**Solution.java**
 
+```java
+/**
+ * Path Sum
+ */
+class Solution {
 
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
 
+    public boolean hasPathSum(TreeNode root, int sum) {
+
+        // Corner case
+        if (root == null) return false;
+
+        // Leaf
+        if (root.left == null && root.right == null && sum == root.val) {
+            return true;
+        }
+
+        return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
+
+    }
+}
+```
 
 
 
@@ -189,6 +215,12 @@ Output:
 
 
 **Explained**
+
+
+
+
+
+**Solution.java**
 
 ```java
 /**
