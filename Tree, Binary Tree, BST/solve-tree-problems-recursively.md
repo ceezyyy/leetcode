@@ -13,7 +13,7 @@ Table of Contents
 
 本文研究采用递归思想破解二叉树相关题目
 
-- 明确函数的定义，不要跳进递归细节，即搞清楚`root` 节点它自己要做什么（巧用辅助函数，传递参数）
+- 明确函数的定义，不要跳进递归细节，即搞清楚 we`root` 节点它自己要做什么（巧用辅助函数，传递参数）
 - 根据题目特点选择前序（`top-down`），中序，后序（`bottom-up`）递归框架
 
 
@@ -153,4 +153,70 @@ Given the below binary tree and `sum = 22`,
 return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
 **Explained**
+
+
+
+
+
+
+
+
+
+## Invert Binary Tree
+
+**Example**
+
+Input:
+
+```
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
+```
+
+Output:
+
+```
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+```
+
+
+
+**Explained**
+
+```java
+/**
+ * Invert Binary Tree
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    public TreeNode invertTree(TreeNode root) {
+
+        if (root == null) return null;
+
+        // Swap children
+        TreeNode temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+
+        invertTree(root.left);
+        invertTree(root.right);
+
+        return root;
+
+    }
+}
+```
 
