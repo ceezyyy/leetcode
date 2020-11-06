@@ -7,7 +7,7 @@ Table of Contents
 * [Maximum Depth of Binary Tree](#maximum-depth-of-binary-tree)
 * [Symmetric Tree](#symmetric-tree)
 * [Path Sum](#path-sum)
-
+* [Invert Binary Tree](#invert-binary-tree)
 
 ## Overview
 
@@ -38,9 +38,9 @@ return its depth = 3.
 
 **Explained**
 
-对于每个节点来讲，只需要获取左右孩子中最大的深度，再累加 1 即可（从子节点获取最大深度，可采用 `bottom-up` 思想 ）
+当前 `root` 的工作：需要获取左右孩子中最大的深度且加 1（`bottom-up` 自底向上）
 
-当节点为空时，返回 0
+边界条件：当 `root` 为空时，返回 0（深度为 0）
 
 
 
@@ -93,6 +93,8 @@ But the following `[1,2,2,null,3,null,3]` is not:
 ```
 
 **Explained**
+
+当前 `root` 的工作：与镜子中的自己相比较（因为比较是对于两个物体的，所以需要借助辅助函数 `isMirror()`，并传递两个参数）
 
 
 
@@ -152,7 +154,15 @@ Given the below binary tree and `sum = 22`,
 
 return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
+
+
 **Explained**
+
+当前 `root` 的工作（不是叶子节点）：将当前的 `sum` 值更新（减去当前自己的 `val`），并判断左右孩子是否满足条件（递归）
+
+当前 `root` 的工作（是叶子结点）：判断当前的 `sum` 值是否等于自己的 `val`，若是，返回 `true`
+
+边界条件：返回 `false`（当叶子节点 / 该路径不满足条件时才走到这一层）
 
 
 
@@ -216,7 +226,9 @@ Output:
 
 **Explained**
 
+当前 `root` 的工作：交换自己的左右孩子，**且分别对左右孩子进行反转**
 
+边界条件：返回 `null`
 
 
 
