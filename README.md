@@ -15,11 +15,6 @@ Study notes for data structures & algorithms
 
 ### LinkedList
 
-- Reverse Linked List
-- Merge Two Sorted Lists
-- Linked List Cycle
-- Remove Nth Node From End of List
-
 ### Stack
 
 ### Queue
