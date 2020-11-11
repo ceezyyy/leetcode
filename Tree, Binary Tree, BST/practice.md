@@ -5,6 +5,8 @@ Table of Contents
 
 * [Overview](#overview)
 * [Populating Next Right Pointers in Each Node](#populating-next-right-pointers-in-each-node)
+* [Maximum Binary Tree](#maximum-binary-tree)
+
 
 
 ## Overview
@@ -77,6 +79,30 @@ class Solution {
 
 
 ## Maximum Binary Tree
+
+**Example**
+
+
+```
+Input: [3,2,1,6,0,5]
+Output: return the tree root node representing the following tree:
+
+      6
+    /   \
+   3     5
+    \    / 
+     2  0   
+       \
+        1
+```
+
+
+
+**Explained**
+
+
+
+
 
 **Solution.java**
 
