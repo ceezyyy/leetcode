@@ -57,7 +57,7 @@ class Solution {
         // Dividing line: left root right
         int inIndex = map.get(postorder[postIndex]);
         root.right = buildTree(inorder, postorder, postIndex - 1, inIndex + 1, inEnd, map);
-        // (inEnd - inIndex) represents how many nodes in left subtree
+        // (inEnd - inIndex) represents how many nodes in right subtree
         root.left = buildTree(inorder, postorder, postIndex - (inEnd - inIndex) - 1, inStart, inIndex - 1, map);
 
         return root;
