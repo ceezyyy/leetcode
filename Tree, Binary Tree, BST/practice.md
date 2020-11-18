@@ -1,4 +1,4 @@
-# Practice for Binary Tree
+# Practices for Binary Tree
 
 Table of Contents
 -----------------
@@ -6,6 +6,9 @@ Table of Contents
 * [Overview](#overview)
 * [Populating Next Right Pointers in Each Node](#populating-next-right-pointers-in-each-node)
 * [Maximum Binary Tree](#maximum-binary-tree)
+* [Construct Binary Tree from Preorder and Inorder Traversal](#construct-binary-tree-from-preorder-and-inorder-traversal)
+* [Construct Binary Tree from Inorder and Postorder Traversal](#construct-binary-tree-from-inorder-and-postorder-traversal)
+
 
 
 
@@ -164,3 +167,217 @@ class Solution {
     }
 }
 ```
+
+## Construct Binary Tree from Preorder and Inorder Traversal
+
+**Example**
+
+For example, given
+
+```
+preorder = [3,9,20,15,7]
+inorder = [9,3,15,20,7]
+```
+
+Return the following binary tree:
+
+```
+    3
+   / \
+  9  20
+    /  \
+   15   7
+```
+
+
+
+**Explained**
+
+当前 `root` 的工作: 构建新的 `root`，以及确定自己的左右孩子
+
+
+
+我们首先得明确三点：
+
+1. 前序遍历： `root` 永远在第一位
+2. 中序遍历：根据 `root` 可以分为左右子树
+3. 后序遍历： `root` 永远在最后一位
+
+
+
+根据这个知识，我们可以利用一个变量记录 `root` 的索引（根据前序遍历结果），接着在中序遍历结果找到当前的 `root`（题目说明元素不重复），将其分为左右两个区间（左右子树），递归调用
+
+
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Construct Binary Tree from Preorder and Inorder Traversal
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+    }
+
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+
+        // Corner case
+        if (preorder == null || preorder.length == 0 || preorder.length != inorder.length) return null;
+
+        // Duplicates do not exist in the tree
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < preorder.length; i++) {
+            map.put(inorder[i], i);
+        }
+
+        return buildTree(preorder, inorder, 0, 0, preorder.length - 1, map);
+
+    }
+
+    /**
+     * preorder: determine where the root at
+     * inorder: determine the left & right interval
+     *
+     * @param preorder
+     * @param inorder
+     * @param preIndex
+     * @param inStart
+     * @param inEnd
+     * @param map
+     * @return
+     */
+    public TreeNode buildTree(int[] preorder, int[] inorder,
+                              int preIndex,
+                              int inStart, int inEnd,
+                              Map<Integer, Integer> map) {
+
+        // Corner case
+        if (inStart > inEnd || preIndex < 0 || preIndex >= preorder.length) return null;
+
+        TreeNode root = new TreeNode(preorder[preIndex]);
+
+        // Dividing line: left root right
+        int inIndex = map.get(preorder[preIndex]);
+        root.left = buildTree(preorder, inorder, preIndex + 1, inStart, inIndex - 1, map);
+        // (inIndex - inStart) represents how many nodes in left subtree
+        root.right = buildTree(preorder, inorder, preIndex + (inIndex - inStart) + 1, inIndex + 1, inEnd, map);
+
+        return root;
+
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+## Construct Binary Tree from Inorder and Postorder Traversal
+
+**Example**
+
+For example, given
+
+```
+inorder = [9,3,15,20,7]
+postorder = [9,15,7,20,3]
+```
+
+Return the following binary tree:
+
+```
+    3
+   / \
+  9  20
+    /  \
+   15   7
+```
+
+**Explained**
+
+看上题，换汤不换药
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Construct Binary Tree from Inorder and Postorder Traversal
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+    }
+
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+
+        // Corner case
+        if (inorder == null || inorder.length == 0 || inorder.length != postorder.length) return null;
+
+        // Duplicates do not exist in the tree
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < inorder.length; i++) {
+            map.put(inorder[i], i);
+        }
+
+        return buildTree(inorder, postorder, postorder.length - 1, 0, inorder.length - 1, map);
+
+    }
+
+
+    /**
+     * postorder: determine where the root at
+     * inorder: determine the left & right interval
+     *
+     * @param inorder
+     * @param postorder
+     * @param postIndex
+     * @param inStart
+     * @param inEnd
+     * @param map
+     * @return
+     */
+    public TreeNode buildTree(int[] inorder, int[] postorder,
+                              int postIndex,
+                              int inStart, int inEnd,
+                              Map<Integer, Integer> map) {
+
+        // Corner case
+        if (inStart > inEnd || postIndex >= postorder.length || postIndex < 0) return null;
+
+        TreeNode root = new TreeNode(postorder[postIndex]);
+
+        // Dividing line: left root right
+        int inIndex = map.get(postorder[postIndex]);
+        root.right = buildTree(inorder, postorder, postIndex - 1, inIndex + 1, inEnd, map);
+        // (inEnd - inIndex) represents how many nodes in right subtree
+        root.left = buildTree(inorder, postorder, postIndex - (inEnd - inIndex) - 1, inStart, inIndex - 1, map);
+
+        return root;
+
+    }
+}
+```
+
