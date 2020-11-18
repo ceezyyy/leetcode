@@ -31,18 +31,8 @@ class Solution {
 
     }
 
-    /**
-     * preorder: determine where the root at
-     * inorder: determine the left & right interval
-     *
-     * @param preorder
-     * @param inorder
-     * @param preIndex
-     * @param inStart
-     * @param inEnd
-     * @param map
-     * @return
-     */
+    // Preorder: Determine where the root at
+    // Inorder: Determine the left & right interval
     public TreeNode buildTree(int[] preorder, int[] inorder,
                               int preIndex,
                               int inStart, int inEnd,
