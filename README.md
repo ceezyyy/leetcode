@@ -26,6 +26,7 @@ Study notes for data structures & algorithms
 - [Fundamental Traversal](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/fundamental-traversal.md)
 - [Solve Tree Problems Recursively](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/solve-tree-problems-recursively.md)
 - [Practices For Binary Tree](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/practice.md)
+- [BST]()
 
 ### Heap
 
