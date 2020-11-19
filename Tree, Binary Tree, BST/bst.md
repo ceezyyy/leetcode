@@ -5,6 +5,8 @@ Table of Contents
 
 * [Overview](#overview)
 * [Kth Smallest Element in a BST](#kth-smallest-element-in-a-bst)
+* [Convert BST to Greater Tree](#convert-bst-to-greater-tree)
+
 
 
 
@@ -98,3 +100,58 @@ class Solution {
     }
 }
 ```
+
+## Convert BST to Greater Tree
+
+**Example**
+
+
+
+<div align="center"> <img src="538.png" width="50%"/> </div><br>
+
+
+```
+Input: root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
+Output: [30,36,21,36,35,26,15,null,null,null,33,null
+```
+
+**Explained**
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Convert BST to Greater Tree
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    private int sum = 0;
+
+    public TreeNode convertBST(TreeNode root) {
+        calculateBST(root);
+        return root;
+    }
+
+    public void calculateBST(TreeNode root) {
+
+        // Corner case
+        if (root == null) return;
+
+        calculateBST(root.right);
+        // Key point
+        sum += root.val;
+        root.val = sum;
+        calculateBST(root.left);
+
+    }
+}
+```
+
