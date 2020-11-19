@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.iml" filepath="$PROJECT_DIR$/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/inorder-traversal/inorder-traversal.iml" filepath="$PROJECT_DIR$/inorder-traversal/inorder-traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/invert-binary-tree/invert-binary-tree.iml" filepath="$PROJECT_DIR$/invert-binary-tree/invert-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.iml" filepath="$PROJECT_DIR$/kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.iml" />
       <module fileurl="file://$PROJECT_DIR$/maximum-binary-tree/maximum-binary-tree.iml" filepath="$PROJECT_DIR$/maximum-binary-tree/maximum-binary-tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.iml" filepath="$PROJECT_DIR$/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/path-sum/path-sum.iml" filepath="$PROJECT_DIR$/path-sum/path-sum.iml" />
