@@ -7,7 +7,9 @@ Table of Contents
 * [Kth Smallest Element in a BST](#kth-smallest-element-in-a-bst)
 * [Convert BST to Greater Tree](#convert-bst-to-greater-tree)
 * [Validate Binary Search Tree](#validate-binary-search-tree)
+* [Search in a Binary Search Tree](#search-in-a-binary-search-tree)
 * [References](#references)
+
 
 
 ## Overview
@@ -232,6 +234,72 @@ class Solution {
 
 
 
+## Search in a Binary Search Tree
+
+**Example**
+
+```
+Given the tree:
+        4
+       / \
+      2   7
+     / \
+    1   3
+
+And the value to search: 2
+```
+
+You should return this subtree:
+
+```
+      2     
+     / \   
+    1   3
+```
+
+
+
+**Explained**
+
+
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Search in a Binary Search Tree
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    public TreeNode searchBST(TreeNode root, int val) {
+
+        // Corner case
+        if (root == null) return null;
+
+        // Bingo
+        if (root.val == val) return root;
+
+        if (val < root.val) {
+            return searchBST(root.left, val);
+        } else {
+            return searchBST(root.right, val);
+        }
+
+    }
+}
+```
+
+
+
 ## References
 
 - [Check if Binary Tree is Binary Search Tree](https://www.youtube.com/watch?v=MILxfAbIhrE)
+
