@@ -9,7 +9,9 @@ Table of Contents
 * [Validate Binary Search Tree](#validate-binary-search-tree)
 * [Search in a Binary Search Tree](#search-in-a-binary-search-tree)
 * [Insert into a Binary Search Tree](#insert-into-a-binary-search-tree)
+* [Count Complete Tree Nodes](#count-complete-tree-nodes)
 * [References](#references)
+
 
 
 ## Overview
@@ -353,6 +355,16 @@ class Solution {
     }
 }
 ```
+
+
+
+## Count Complete Tree Nodes
+
+
+
+
+
+
 
 
 
