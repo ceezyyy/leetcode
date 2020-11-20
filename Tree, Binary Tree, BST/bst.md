@@ -6,8 +6,8 @@ Table of Contents
 * [Overview](#overview)
 * [Kth Smallest Element in a BST](#kth-smallest-element-in-a-bst)
 * [Convert BST to Greater Tree](#convert-bst-to-greater-tree)
-
-
+* [Validate Binary Search Tree](#validate-binary-search-tree)
+* [References](#references)
 
 
 ## Overview
@@ -155,3 +155,83 @@ class Solution {
 }
 ```
 
+
+
+
+
+## Validate Binary Search Tree
+
+**Example**
+
+```
+    5
+   / \
+  1   4
+     / \
+    3   6
+
+Input: [5,1,4,null,null,3,6]
+Output: false
+Explanation: The root node's value is 5 but its right child's value is 4.
+```
+
+
+
+**Explained**
+
+
+
+
+
+
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Validate Binary Search Tree
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    public boolean isValidBST(TreeNode root) {
+
+        // Corner case
+        if (root == null) return true;
+
+        // Use Long instead of Integer
+        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+
+    }
+
+    public boolean isValidBST(TreeNode root, long min, long max) {
+
+        // Corner case
+        if (root == null) return true;
+
+        // Root: -inf < root < inf
+        // Left subtree: -inf < left < root
+        // Right subtree: root < right < inf
+        int val = root.val;
+        if (val >= max || val <= min) return false;
+
+        return isValidBST(root.left, min, val) && isValidBST(root.right, val, max);
+
+    }
+}
+```
+
+
+
+
+
+## References
+
+- [Check if Binary Tree is Binary Search Tree](https://www.youtube.com/watch?v=MILxfAbIhrE)

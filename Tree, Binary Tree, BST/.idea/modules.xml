@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/postorder-traversal/postorder-traversal.iml" filepath="$PROJECT_DIR$/postorder-traversal/postorder-traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/preorder-traversal/preorder-traversal.iml" filepath="$PROJECT_DIR$/preorder-traversal/preorder-traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/symmetric-tree/symmetric-tree.iml" filepath="$PROJECT_DIR$/symmetric-tree/symmetric-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/validate-binary-search-tree/validate-binary-search-tree.iml" filepath="$PROJECT_DIR$/validate-binary-search-tree/validate-binary-search-tree.iml" />
     </modules>
   </component>
 </project>
