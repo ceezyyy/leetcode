@@ -8,8 +8,8 @@ Table of Contents
 * [Convert BST to Greater Tree](#convert-bst-to-greater-tree)
 * [Validate Binary Search Tree](#validate-binary-search-tree)
 * [Search in a Binary Search Tree](#search-in-a-binary-search-tree)
+* [Insert into a Binary Search Tree](#insert-into-a-binary-search-tree)
 * [References](#references)
-
 
 
 ## Overview
@@ -292,6 +292,63 @@ class Solution {
         } else {
             return searchBST(root.right, val);
         }
+
+    }
+}
+```
+
+
+
+## Insert into a Binary Search Tree
+
+**Example**
+
+
+
+<div align="center"> <img src="insert_bst.jpg" width="50%"/> </div><br>
+
+
+```
+Input: root = [4,2,7,1,3], val = 5
+Output: [4,2,7,1,3,5]
+```
+
+**Explained**
+
+
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Insert into a Binary Search Tree
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+    }
+
+    public TreeNode insertIntoBST(TreeNode root, int val) {
+
+        if (root == null) return new TreeNode(val);
+
+        // It's guaranteed that val does not exist in the original BST
+        if (val < root.val) {
+            root.left = insertIntoBST(root.left, val);
+        } else {
+            root.right = insertIntoBST(root.right, val);
+        }
+
+        return root;
 
     }
 }
