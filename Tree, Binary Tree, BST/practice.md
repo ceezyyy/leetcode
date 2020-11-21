@@ -8,7 +8,7 @@ Table of Contents
 * [Maximum Binary Tree](#maximum-binary-tree)
 * [Construct Binary Tree from Preorder and Inorder Traversal](#construct-binary-tree-from-preorder-and-inorder-traversal)
 * [Construct Binary Tree from Inorder and Postorder Traversal](#construct-binary-tree-from-inorder-and-postorder-traversal)
-
+* [Serialize and Deserialize Binary Tree](#serialize-and-deserialize-binary-tree)
 
 
 
@@ -358,3 +358,99 @@ class Solution {
 }
 ```
 
+
+
+## Serialize and Deserialize Binary Tree
+
+**Example**
+
+<div align="center"> <img src="se_de.jpg" width="30%"/> </div><br>
+
+```
+Input: root = [1,2,3,null,null,4,5]
+Output: [1,2,3,null,null,4,5]
+```
+
+
+
+
+
+**Explain**
+
+
+
+**Codec.java**
+
+```java
+/**
+ * Serialize and Deserialize Binary Tree
+ */
+public class Codec {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+    }
+
+    private StringBuilder result = new StringBuilder();
+
+    // Encodes a tree to a single string.
+    public String serialize(TreeNode root) {
+        buildString(root);
+        return result.toString();
+    }
+
+    public void buildString(TreeNode root) {
+
+        // Corner case
+        if (root == null) {
+            result.append("null").append(",");
+            // Do not forget to return
+            return;
+        }
+
+        result.append(String.valueOf(root.val)).append(",");
+        buildString(root.left);
+        buildString(root.right);
+
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String data) {
+
+        // String[] -> Deque
+        List<String> nodes = Arrays.asList(data.split(","));
+        Deque<String> elements = new ArrayDeque<>(nodes);
+        return buildTree(elements);
+
+    }
+
+    public TreeNode buildTree(Deque<String> elements) {
+
+        // Corner case
+        if (elements == null) return null;
+
+        String val = elements.remove();
+
+        // Do not use "=="
+        if ("null".equals(val)) return null;
+
+        TreeNode root = new TreeNode(Integer.parseInt(val));
+        root.left = buildTree(elements);
+        root.right = buildTree(elements);
+
+        return root;
+
+    }
+}
+
+// Your Codec object will be instantiated and called as such:
+// Codec ser = new Codec();
+// Codec deser = new Codec();
+// TreeNode ans = deser.deserialize(ser.serialize(root));
+```
