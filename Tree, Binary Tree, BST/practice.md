@@ -10,7 +10,7 @@ Table of Contents
 * [Construct Binary Tree from Inorder and Postorder Traversal](#construct-binary-tree-from-inorder-and-postorder-traversal)
 * [Serialize and Deserialize Binary Tree](#serialize-and-deserialize-binary-tree)
 * [Univalued Binary Tree](#univalued-binary-tree)
-
+* [Minimum Depth of Binary Tree](#minimum-depth-of-binary-tree)
 
 
 
@@ -25,7 +25,6 @@ Table of Contents
 
 
 <div align="center"> <img src="116_sample.png" width="50%"/> </div><br>
-
 
 
 
@@ -503,6 +502,67 @@ class Solution {
         if (root.val != val) return false;
 
         return isUnivalTree(root.left, val) && isUnivalTree(root.right, val);
+
+    }
+}
+```
+
+
+
+
+
+## Minimum Depth of Binary Tree
+
+**Example**
+
+
+<div align="center"> <img src="ex_depth.jpg" width="20%"/> </div><br>
+
+
+```
+Input: root = [3,9,20,null,null,15,7]
+Output: 2
+```
+
+
+
+**Explained**
+
+
+
+
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Minimum Depth of Binary Tree
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    public int minDepth(TreeNode root) {
+
+        // Corner case
+        if (root == null) return 0;
+
+        // Leaf node
+        if (root.left == null && root.right == null) return 1;
+
+        int left = minDepth(root.left);
+        int right = minDepth(root.right);
+
+        // One side
+        if (root.left == null || root.right == null) return left + right + 1;
+
+        return Math.min(left, right) + 1;
 
     }
 }
