@@ -9,6 +9,8 @@ Table of Contents
 * [Construct Binary Tree from Preorder and Inorder Traversal](#construct-binary-tree-from-preorder-and-inorder-traversal)
 * [Construct Binary Tree from Inorder and Postorder Traversal](#construct-binary-tree-from-inorder-and-postorder-traversal)
 * [Serialize and Deserialize Binary Tree](#serialize-and-deserialize-binary-tree)
+* [Univalued Binary Tree](#univalued-binary-tree)
+
 
 
 
@@ -22,7 +24,7 @@ Table of Contents
 
 
 
-<div align="center"> <img src="116_sample.png" width="60%"/> </div><br>
+<div align="center"> <img src="116_sample.png" width="50%"/> </div><br>
 
 
 
@@ -364,7 +366,7 @@ class Solution {
 
 **Example**
 
-<div align="center"> <img src="se_de.jpg" width="30%"/> </div><br>
+<div align="center"> <img src="se_de.jpg" width="20%"/> </div><br>
 
 ```
 Input: root = [1,2,3,null,null,4,5]
@@ -453,4 +455,55 @@ public class Codec {
 // Codec ser = new Codec();
 // Codec deser = new Codec();
 // TreeNode ans = deser.deserialize(ser.serialize(root));
+```
+
+
+
+## Univalued Binary Tree
+
+**Example**
+
+<div align="center"> <img src="unival.png" width="20%"/> </div><br>
+
+
+
+```
+Input: [2,2,2,5,2]
+Output: false
+```
+
+**Explained**
+
+**Solution.java**
+
+```java
+/**
+ * Univalued Binary Tree
+ * <p>
+ * A binary tree is univalued if every node in the tree has the same value.
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    public boolean isUnivalTree(TreeNode root) {
+        // The number of nodes in the given tree will be in the range [1, 100]
+        return isUnivalTree(root, root.val);
+    }
+
+    public boolean isUnivalTree(TreeNode root, int val) {
+
+        // Corner case
+        if (root == null) return true;
+
+        if (root.val != val) return false;
+
+        return isUnivalTree(root.left, val) && isUnivalTree(root.right, val);
+
+    }
+}
 ```
