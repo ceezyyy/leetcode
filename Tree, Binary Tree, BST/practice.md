@@ -11,6 +11,7 @@ Table of Contents
 * [Serialize and Deserialize Binary Tree](#serialize-and-deserialize-binary-tree)
 * [Univalued Binary Tree](#univalued-binary-tree)
 * [Minimum Depth of Binary Tree](#minimum-depth-of-binary-tree)
+* [Flatten Binary Tree to Linked List](#flatten-binary-tree-to-linked-list)
 
 
 
@@ -563,6 +564,84 @@ class Solution {
         if (root.left == null || root.right == null) return left + right + 1;
 
         return Math.min(left, right) + 1;
+
+    }
+}
+```
+
+## Flatten Binary Tree to Linked List
+
+**Example**
+
+```
+    1
+   / \
+  2   5
+ / \   \
+3   4   6
+```
+
+The flattened tree should look like:
+
+```
+1
+ \
+  2
+   \
+    3
+     \
+      4
+       \
+        5
+         \
+          6
+```
+
+**Explained**
+
+
+
+
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Flatten Binary Tree to Linked List
+ */
+class Solution {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
+    private TreeNode tail = null;
+
+    public void flatten(TreeNode root) {
+
+        // Corner case
+        if (root == null) return;
+
+        TreeNode left = root.left;
+        TreeNode right = root.right;
+
+        flatten(left);
+        flatten(right);
+
+        root.left = null;
+        root.right = left;
+
+        // "left" may be null, to avoid NullPointerException
+        // We need a cursor to reach the tail of the linked list
+        tail = root;
+        while (tail.right != null) tail = tail.right;
+
+        // Now at the tail of the linked list
+        tail.right = right;
 
     }
 }
