@@ -32,7 +32,7 @@ class Solution {
             // Skip if current choice is in our choice list
             if (runningChoices.contains(choice)) continue;
 
-            // 1. Add current choice to our current choice list
+            // 1. Add current choice to our running choice list
             runningChoices.add(choice);
             // 2. Jump into the next level of decision tree
             backtracking(nums, runningChoices);
