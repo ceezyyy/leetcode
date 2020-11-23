@@ -54,7 +54,11 @@ Study notes for data structures & algorithms
 
 ### Divide and conquer
 
-### [Backtracking](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/backtracking.md)
+### Backtracking
+
+- [Permutations]()
+- [Combinations]()
+- [Subsets]()
 
 ### DP
 
