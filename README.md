@@ -56,9 +56,9 @@ Study notes for data structures & algorithms
 
 ### Backtracking
 
-- [Permutations]()
-- [Combinations]()
-- [Subsets]()
+- [Permutations](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/permutations.md)
+- [Combinations](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/combinations.md)
+- [Subsets](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/subsets.md)
 
 ### DP
 

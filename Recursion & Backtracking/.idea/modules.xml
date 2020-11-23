@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Recursion &amp; Backtracking.iml" filepath="$PROJECT_DIR$/.idea/Recursion &amp; Backtracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permutations/permutations.iml" filepath="$PROJECT_DIR$/permutations/permutations.iml" />
     </modules>
   </component>
 </project>
