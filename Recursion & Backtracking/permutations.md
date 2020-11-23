@@ -59,10 +59,11 @@ class Solution {
             // Skip if current choice is in our choice list
             if (runningChoices.contains(choice)) continue;
 
+            // 1. Add current choice to our current choice list
             runningChoices.add(choice);
-            // Jump into the next level of decision tree
+            // 2. Jump into the next level of decision tree
             backtracking(nums, runningChoices);
-            // Undo current choice
+            // 3. Undo current choice
             runningChoices.remove(runningChoices.size() - 1);
 
         }

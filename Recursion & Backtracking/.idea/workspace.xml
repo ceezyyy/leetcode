@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3986bc5a-f174-4897-8a67-6ffbcdc82c51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backtracking.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permutations/permutations.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/permutations/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/permutations.md" beforeDir="false" afterPath="$PROJECT_DIR$/permutations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permutations/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/permutations/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -47,11 +49,17 @@
       <option name="presentableId" value="Default" />
       <updated>1606111404978</updated>
       <workItem from="1606111406016" duration="602000" />
-      <workItem from="1606112906318" duration="504000" />
+      <workItem from="1606112906318" duration="799000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1667" y="-104" key="new project wizard" timestamp="1606116913990">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="1667" y="-104" key="new project wizard/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606116913990" />
   </component>
 </project>
