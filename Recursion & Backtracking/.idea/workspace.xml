@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3986bc5a-f174-4897-8a67-6ffbcdc82c51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtracking-blueprint.md" beforeDir="false" afterPath="$PROJECT_DIR$/backtracking-blueprint.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,8 @@
       <updated>1606111404978</updated>
       <workItem from="1606111406016" duration="602000" />
       <workItem from="1606112906318" duration="4262000" />
+      <workItem from="1606201926114" duration="97000" />
+      <workItem from="1606202218935" duration="322000" />
     </task>
     <servers />
   </component>

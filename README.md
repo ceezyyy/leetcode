@@ -58,9 +58,11 @@ Study notes for data structures & algorithms
 
 - [Backtracking blueprint](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/backtracking-blueprint.md)
 - [Permutations](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/permutations.md)
+- [Permutations II]()
 - [Combinations](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/combinations.md)
 - [Subsets](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/subsets.md)
 - [Subsets II](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/subsets-ii.md)
+- [Sudoku Solver]()
 
 ### DP
 
