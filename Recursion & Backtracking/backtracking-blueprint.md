@@ -19,20 +19,22 @@ Table of Contents
 ## 解题模版
 
 ```python
-// 决策树结果集
+# 决策树结果集
 result = []
 
-void backtracking(当前选择列表, 待选择列表):
-		if 满足结束条件:
-				result.add(当前选择列表)
-				return
-          
-     for 选择 in 待选择列表:
-				// 将选择加入当前选择列表
-				做选择(极有可能需要条件判断)
-        // 进入决策树下一层
+
+def backtracking(当前选择列表, 待选择列表):
+
+    if 满足结束条件:
+        result.add(当前选择列表)
+        return
+
+    for 选择 in 待选择列表:
+        # 将选择加入当前选择列表
+        做选择(极有可能需要条件判断)
+        # 进入决策树下一层
         backtracking(当前选择列表, 待选择列表)
-        // 回溯  
+        # 回溯
         撤销当前选择
 
 ```
