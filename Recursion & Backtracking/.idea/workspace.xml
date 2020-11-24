@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3986bc5a-f174-4897-8a67-6ffbcdc82c51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/subsets/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subsets-ii/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606111404978</updated>
       <workItem from="1606111406016" duration="602000" />
-      <workItem from="1606112906318" duration="1889000" />
+      <workItem from="1606112906318" duration="2963000" />
     </task>
     <servers />
   </component>
@@ -57,9 +59,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1667" y="-104" key="new project wizard" timestamp="1606126925247">
+    <state x="1667" y="-104" key="new project wizard" timestamp="1606188633637">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state x="1667" y="-104" key="new project wizard/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606126925247" />
+    <state x="1667" y="-104" key="new project wizard/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606188633637" />
+    <state x="1981" y="-132" width="838" height="1032" key="search.everywhere.popup" timestamp="1606185961408">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="1981" y="-132" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606185961408" />
   </component>
 </project>

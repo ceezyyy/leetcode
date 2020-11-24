@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/combinations/combinations.iml" filepath="$PROJECT_DIR$/combinations/combinations.iml" />
       <module fileurl="file://$PROJECT_DIR$/permutations/permutations.iml" filepath="$PROJECT_DIR$/permutations/permutations.iml" />
       <module fileurl="file://$PROJECT_DIR$/subsets/subsets.iml" filepath="$PROJECT_DIR$/subsets/subsets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subsets-ii/subsets-ii.iml" filepath="$PROJECT_DIR$/subsets-ii/subsets-ii.iml" />
     </modules>
   </component>
 </project>
