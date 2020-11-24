@@ -32,7 +32,7 @@ def backtracking(当前选择列表, 待选择列表):
 
     for 选择 in 待选择列表:
         # 过滤条件
-        if (不满足成为选择的条件) continue
+        if (不满足条件) continue
         # 将选择加入当前选择列表
         做选择
         # 进入决策树下一层
