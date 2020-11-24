@@ -18,7 +18,7 @@ Table of Contents
 
 ## 解题模版
 
-```java
+```python
 // 决策树结果集
 result = []
 
