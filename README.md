@@ -25,7 +25,7 @@ Study notes for data structures & algorithms
 
 - [Fundamental Traversal](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/fundamental-traversal.md)
 - [Solve Tree Problems Recursively](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/solve-tree-problems-recursively.md)
-- [Practices For Binary Tree](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/practice.md)
+- [Practices for Binary Tree](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/practice.md)
 - [BST](https://github.com/ceezyyy/algo/blob/master/Tree%2C%20Binary%20Tree%2C%20BST/bst.md)
 
 ### Heap
@@ -63,6 +63,7 @@ Study notes for data structures & algorithms
 - [Subsets](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/subsets.md)
 - [Subsets II](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/subsets-ii.md)
 - [Sudoku Solver](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/sudoku-solver.md)
+- [Practices for Backtracking]
 
 ### DP
 
