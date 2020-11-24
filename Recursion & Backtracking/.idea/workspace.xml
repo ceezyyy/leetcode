@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3986bc5a-f174-4897-8a67-6ffbcdc82c51" name="Default Changelist" comment="" />
+    <list default="true" id="3986bc5a-f174-4897-8a67-6ffbcdc82c51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/count-sorted-vowel-strings/src/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +51,7 @@
       <workItem from="1606111406016" duration="602000" />
       <workItem from="1606112906318" duration="4262000" />
       <workItem from="1606201926114" duration="97000" />
-      <workItem from="1606202218935" duration="1051000" />
+      <workItem from="1606202218935" duration="1504000" />
     </task>
     <servers />
   </component>
