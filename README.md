@@ -63,7 +63,7 @@ Study notes for data structures & algorithms
 - [Subsets](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/subsets.md)
 - [Subsets II](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/subsets-ii.md)
 - [Sudoku Solver](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/sudoku-solver.md)
-- [Letter Combinations of a Phone Number]()
+- [Letter Combinations of a Phone Number](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/letter-combinations-of-a-phone-number.md)
 - [Practices for Backtracking](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/practices.md)
 
 ### DP
