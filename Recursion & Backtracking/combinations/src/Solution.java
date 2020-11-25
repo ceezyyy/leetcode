@@ -18,7 +18,7 @@ class Solution {
 
     public void backtracking(int n, int k, List<Integer> runningChoices, int start) {
 
-        // Reach the goal: we have made all decisions
+        // Goal: We have made all decisions
         if (runningChoices.size() == k) {
             result.add(new ArrayList(runningChoices));
             return;

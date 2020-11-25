@@ -16,7 +16,7 @@ class Solution {
 
     public void backtracking(int[] nums, List<Integer> runningChoices) {
 
-        // Reach the goal: we have made all the decisions
+        // Goal: We have made all the decisions
         if (runningChoices.size() == nums.length) {
             result.add(new ArrayList(runningChoices));
             // Do not forget to return

@@ -20,7 +20,7 @@ class Solution {
 
     public void backtracking(int n, List<Character> runningChoices, int start) {
 
-        // We have made all decisions
+        // Goal: We have made all decisions
         if (n == runningChoices.size()) {
             result++;
             return;
