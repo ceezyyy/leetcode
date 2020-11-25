@@ -27,12 +27,12 @@ class Solution {
         map.put('8', "tuv");
         map.put('9', "wxyz");
 
-        backtracking(digits, map, 0, new StringBuilder());
+        backtracking(digits, 0, new StringBuilder());
         return result;
 
     }
 
-    public void backtracking(String digits, Map<Character, String> map, int level, StringBuilder runningChoices) {
+    public void backtracking(String digits, int level, StringBuilder runningChoices) {
 
         // Goal: We have made all decisions
         if (level == digits.length()) {
@@ -48,7 +48,7 @@ class Solution {
             // 1. Add current choice to our current choice list
             runningChoices.append(choice);
             // 2. Jump into the next level of decision tree
-            backtracking(digits, map, level + 1, runningChoices);
+            backtracking(digits, level + 1, runningChoices);
             // 3. Undo current choice
             runningChoices.deleteCharAt(runningChoices.length() - 1);
 
