@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3986bc5a-f174-4897-8a67-6ffbcdc82c51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iterator-for-combination/iterator-for-combination.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iterator-for-combination/src/CombinationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate-parentheses/generate-parentheses.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate-parentheses/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter-combinations-of-a-phone-number.md" beforeDir="false" afterPath="$PROJECT_DIR$/letter-combinations-of-a-phone-number.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices.md" beforeDir="false" afterPath="$PROJECT_DIR$/practices.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="generate-parentheses" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -57,6 +65,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +83,9 @@
       <workItem from="1606112906318" duration="4262000" />
       <workItem from="1606201926114" duration="97000" />
       <workItem from="1606202218935" duration="5586000" />
-      <workItem from="1606372396486" duration="749000" />
+      <workItem from="1606372396486" duration="2471000" />
+      <workItem from="1606443987893" duration="65000" />
+      <workItem from="1606444198239" duration="1161000" />
     </task>
     <servers />
   </component>
@@ -78,13 +93,45 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1667" y="-104" key="new project wizard" timestamp="1606376133567">
+    <state width="1868" height="414" key="GridCell.Tab.0.bottom" timestamp="1606557836895">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state x="1667" y="-104" key="new project wizard/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606376133567" />
-    <state x="1981" y="-132" width="838" height="1032" key="search.everywhere.popup" timestamp="1606372593515">
+    <state width="1868" height="414" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557836895" />
+    <state width="1868" height="414" key="GridCell.Tab.0.center" timestamp="1606557836892">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state x="1981" y="-132" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606372593515" />
+    <state width="1868" height="414" key="GridCell.Tab.0.center/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557836892" />
+    <state width="1868" height="414" key="GridCell.Tab.0.left" timestamp="1606557836890">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="414" key="GridCell.Tab.0.left/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557836890" />
+    <state width="1868" height="414" key="GridCell.Tab.0.right" timestamp="1606557836894">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="414" key="GridCell.Tab.0.right/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557836894" />
+    <state width="1868" height="414" key="GridCell.Tab.1.bottom" timestamp="1606557836898">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="414" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557836898" />
+    <state width="1868" height="414" key="GridCell.Tab.1.center" timestamp="1606557836897">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="414" key="GridCell.Tab.1.center/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557836897" />
+    <state width="1868" height="414" key="GridCell.Tab.1.left" timestamp="1606557836896">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="414" key="GridCell.Tab.1.left/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557836896" />
+    <state width="1868" height="414" key="GridCell.Tab.1.right" timestamp="1606557836898">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="414" key="GridCell.Tab.1.right/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557836898" />
+    <state x="1667" y="-104" key="new project wizard" timestamp="1606557011322">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="1667" y="-104" key="new project wizard/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606557011322" />
+    <state x="1981" y="-132" width="838" height="1032" key="search.everywhere.popup" timestamp="1606385966875">
+      <screen x="1440" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="1981" y="-132" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1606385966875" />
   </component>
 </project>
