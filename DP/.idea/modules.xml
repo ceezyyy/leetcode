@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DP.iml" filepath="$PROJECT_DIR$/.idea/DP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coin-change/coin-change.iml" filepath="$PROJECT_DIR$/coin-change/coin-change.iml" />
       <module fileurl="file://$PROJECT_DIR$/fibonacci-number/fibonacci-number.iml" filepath="$PROJECT_DIR$/fibonacci-number/fibonacci-number.iml" />
     </modules>
   </component>
