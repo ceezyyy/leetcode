@@ -70,7 +70,7 @@ Study notes for data structures & algorithms
 - [DP Intro](https://github.com/ceezyyy/leetcode/blob/master/DP/dp-intro.md)
 - [Fibonacci Number](https://github.com/ceezyyy/leetcode/blob/master/DP/fibonacci-number.md)
 - [Coin change](https://github.com/ceezyyy/leetcode/blob/master/DP/coin-change.md)
-- [Practices for DP]()
+- [Practices for DP](https://github.com/ceezyyy/leetcode/blob/master/DP/practices-for-dp.md)
 
 ### KMP
 
