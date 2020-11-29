@@ -5,7 +5,7 @@ Table of Contents
 
 * [Climbing Stairs](#climbing-stairs)
 * [Unique Paths](#unique-paths)
-
+* [Min Cost Climbing Stairs](#min-cost-climbing-stairs)
 
 
 ## Climbing Stairs
@@ -112,3 +112,52 @@ class Solution {
 }
 ```
 
+
+
+## Min Cost Climbing Stairs
+
+On a staircase, the `i`-th step has some non-negative cost `cost[i]` assigned (0 indexed).
+
+Once you pay the cost, you can either climb one or two steps. You need to find minimum cost to reach the top of the floor, and you can either start from the step with index 0, or the step with index 1.
+
+**Example**
+
+```
+Input: cost = [10, 15, 20]
+Output: 15
+Explanation: Cheapest is start on cost[1], pay that cost and go to the top.
+```
+
+**Explained**
+
+**Solution.java**
+
+```java
+/**
+ * Min Cost Climbing Stairs
+ */
+class Solution {
+
+    // Cost will have a length in the range [2, 1000]
+    // Cost[1001] represents the top of the stairs (if cost.length is 1000)
+    private int[] memo = new int[1001];
+
+    public int minCostClimbingStairs(int[] cost) {
+
+        int n = cost.length;
+
+        // Base case
+        // You can either start from the step with index 0, or the step with index 1
+        memo[0] = cost[0];
+        memo[1] = cost[1];
+
+        for (int i = 2; i < n; i++) {
+            memo[i] = Math.min(memo[i - 2], memo[i - 1]) + cost[i];
+        }
+
+        // "n" represents the top of the stairs, we need no cost
+        return Math.min(memo[n - 2], memo[n - 1]);
+
+    }
+}
+```
