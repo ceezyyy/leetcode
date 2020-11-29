@@ -56,7 +56,7 @@ Study notes for data structures & algorithms
 
 ### Backtracking
 
-- [Backtracking blueprint](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/backtracking-blueprint.md)
+- [Backtracking Blueprint](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/backtracking-blueprint.md)
 - [Permutations](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/permutations.md)
 - [Combinations](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/combinations.md)
 - [Subsets](https://github.com/ceezyyy/leetcode/blob/master/Recursion%20%26%20Backtracking/subsets.md)
@@ -67,7 +67,8 @@ Study notes for data structures & algorithms
 
 ### DP
 
-- [Fibonacci Number]()
+- [DP Intro](https://github.com/ceezyyy/leetcode/blob/master/DP/dp-intro.md)
+- [Fibonacci Number](https://github.com/ceezyyy/leetcode/blob/master/DP/fibonacci-number.md)
 
 ### KMP
 
