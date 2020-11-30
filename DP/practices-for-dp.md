@@ -5,9 +5,9 @@ Table of Contents
 
 * [Climbing Stairs](#climbing-stairs)
 * [Unique Paths](#unique-paths)
+* [Minimum Path Sum](#minimum-path-sum)
 * [Min Cost Climbing Stairs](#min-cost-climbing-stairs)
 * [N-th Tribonacci Number](#n-th-tribonacci-number)
-
 
 
 ## Climbing Stairs
@@ -113,6 +113,81 @@ class Solution {
     }
 }
 ```
+
+
+
+
+
+## Minimum Path Sum
+
+Given a `m x n` `grid` filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.
+
+**Note:** You can only move either down or right at any point in time.
+
+<div align="center"> <img src="minpath.jpg" width="30%"/> </div><br>
+
+**Example**
+
+```
+Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
+Output: 7
+Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
+```
+
+
+
+
+
+
+
+
+
+
+
+**Solution.java**
+
+```java
+/**
+ * Minimum Path Sum
+ */
+class Solution {
+
+    // 1 <= m, n <= 200
+    private int[][] memo = new int[201][201];
+
+    public int minPathSum(int[][] grid) {
+
+        int rows = grid.length;
+        int cols = grid[0].length;
+
+        // Base case
+        memo[0][0] = grid[0][0];
+
+        // First row
+        for (int j = 1; j < cols; j++) {
+            memo[0][j] = memo[0][j - 1] + grid[0][j];
+        }
+
+        // First col
+        for (int i = 1; i < rows; i++) {
+            memo[i][0] = memo[i - 1][0] + grid[i][0];
+        }
+
+        for (int i = 1; i < rows; i++) {
+            for (int j = 1; j < cols; j++) {
+                memo[i][j] = Math.min(memo[i - 1][j], memo[i][j - 1]) + grid[i][j];
+            }
+        }
+
+        return memo[rows - 1][cols - 1];
+
+    }
+}
+```
+
+
+
+
 
 
 

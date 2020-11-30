@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/fibonacci-number/fibonacci-number.iml" filepath="$PROJECT_DIR$/fibonacci-number/fibonacci-number.iml" />
       <module fileurl="file://$PROJECT_DIR$/house-robber/house-robber.iml" filepath="$PROJECT_DIR$/house-robber/house-robber.iml" />
       <module fileurl="file://$PROJECT_DIR$/min-cost-climbing-stairs/min-cost-climbing-stairs.iml" filepath="$PROJECT_DIR$/min-cost-climbing-stairs/min-cost-climbing-stairs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minimum-path-sum/minimum-path-sum.iml" filepath="$PROJECT_DIR$/minimum-path-sum/minimum-path-sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/n-th-tribonacci-number/n-th-tribonacci-number.iml" filepath="$PROJECT_DIR$/n-th-tribonacci-number/n-th-tribonacci-number.iml" />
       <module fileurl="file://$PROJECT_DIR$/unique-paths/unique-paths.iml" filepath="$PROJECT_DIR$/unique-paths/unique-paths.iml" />
     </modules>
