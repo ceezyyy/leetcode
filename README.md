@@ -77,7 +77,3 @@ Study notes for data structures & algorithms
 
 
 
-## Top Interview Questions
-
-<div align="center"> <img src="pics/INTERVIEW.png" width="100%"/> </div><br>
-
