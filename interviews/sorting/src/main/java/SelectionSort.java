@@ -1,7 +1,7 @@
 /**
  * <p>
- * 选择排序法
- * 每次都在未排序的元素中选择最小的
+ * Selection Sort
+ * Finding the smallest element in the unsorted sublist
  * </p>
  *
  * @author ceezyyy
@@ -14,8 +14,8 @@ public class SelectionSort {
         int n = arr.length;
 
         /*
-          Sorted: [0, i)
-          Unsorted: [i, n]
+          Sorted sublist: [0, i)
+          Unsorted sublist: [i, n)
          */
         for (int i = 0; i < n - 1; i++) {
 
@@ -49,9 +49,9 @@ public class SelectionSort {
 
 
 /**
- * 平均: O(n^2)
- * 最好: O(n^2)
- * 最坏: O(n^2)
- * 空间: O(1)
- * 是否稳定: 不稳定
+ * Average: O(n^2)
+ * Best: O(n^2)
+ * Worst: O(n^2)
+ * Space: O(1)
+ * Unstable
  */
