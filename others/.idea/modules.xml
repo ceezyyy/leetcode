@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Recursion &amp; Backtracking/combinations/combinations.iml" filepath="$PROJECT_DIR$/Recursion &amp; Backtracking/combinations/combinations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/convert-bst-to-greater-tree/convert-bst-to-greater-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/convert-bst-to-greater-tree/convert-bst-to-greater-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/count-complete-tree-nodes/count-complete-tree-nodes.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/count-complete-tree-nodes/count-complete-tree-nodes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion &amp; Backtracking/count-sorted-vowel-strings/count-sorted-vowel-strings.iml" filepath="$PROJECT_DIR$/Recursion &amp; Backtracking/count-sorted-vowel-strings/count-sorted-vowel-strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion &amp; Backtracking/generate-parentheses/generate-parentheses.iml" filepath="$PROJECT_DIR$/Recursion &amp; Backtracking/generate-parentheses/generate-parentheses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/inorder-traversal/inorder-traversal.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/inorder-traversal/inorder-traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/invert-binary-tree/invert-binary-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/invert-binary-tree/invert-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion &amp; Backtracking/iterator-for-combination/iterator-for-combination.iml" filepath="$PROJECT_DIR$/Recursion &amp; Backtracking/iterator-for-combination/iterator-for-combination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion &amp; Backtracking/letter-combinations-of-a-phone-number/letter-combinations-of-a-phone-number.iml" filepath="$PROJECT_DIR$/Recursion &amp; Backtracking/letter-combinations-of-a-phone-number/letter-combinations-of-a-phone-number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/maximum-binary-tree/maximum-binary-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/maximum-binary-tree/maximum-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/others.iml" filepath="$PROJECT_DIR$/.idea/others.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/path-sum/path-sum.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/path-sum/path-sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion &amp; Backtracking/permutations/permutations.iml" filepath="$PROJECT_DIR$/Recursion &amp; Backtracking/permutations/permutations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/postorder-traversal/postorder-traversal.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/postorder-traversal/postorder-traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/preorder-traversal/preorder-traversal.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/preorder-traversal/preorder-traversal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/search-in-a-binary-search-tree/search-in-a-binary-search-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/search-in-a-binary-search-tree/search-in-a-binary-search-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion &amp; Backtracking/subsets/subsets.iml" filepath="$PROJECT_DIR$/Recursion &amp; Backtracking/subsets/subsets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion &amp; Backtracking/subsets-ii/subsets-ii.iml" filepath="$PROJECT_DIR$/Recursion &amp; Backtracking/subsets-ii/subsets-ii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/symmetric-tree/symmetric-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/symmetric-tree/symmetric-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/univalued-binary-tree/univalued-binary-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/univalued-binary-tree/univalued-binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tree, Binary Tree, BST/validate-binary-search-tree/validate-binary-search-tree.iml" filepath="$PROJECT_DIR$/Tree, Binary Tree, BST/validate-binary-search-tree/validate-binary-search-tree.iml" />
+    </modules>
+  </component>
+</project>
