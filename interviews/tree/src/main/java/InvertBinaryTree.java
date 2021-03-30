@@ -1,6 +1,6 @@
 /**
  * <p>
- * 226. Invert Binary Tree
+ * 226. Invert Binary Tree (Easy)
  * https://leetcode.com/problems/invert-binary-tree/
  * </p>
  *
@@ -10,21 +10,19 @@
 class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
 
-        if (root == null) return null;
-
-        TreeNode originLeft = root.left;
-        TreeNode originRight = root.right;
+        if (root == null) return root;
 
         /*
           For each node:
 
-          1) left pointer to the "right"
-
-          2) right pointer to the "left"
-
+          1) invert its left & right child
+          2) the left / right pointer points to the "invertedRight" / "invertedLeft"
          */
-        root.left = invertTree(originRight);
-        root.right = invertTree(originLeft);
+        TreeNode invertedLeft = invertTree(root.left);
+        TreeNode invertedRight = invertTree(root.right);
+
+        root.left = invertedRight;
+        root.right = invertedLeft;
 
         return root;
 

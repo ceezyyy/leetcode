@@ -1,6 +1,8 @@
 /**
  * <p>
  * Merge Sort
+ * Divide the unsorted list into n sublists, each containing one element
+ * Repeatedly merge sublists until there is only one sublist remaining
  * </p>
  *
  * @author ceezyyy
@@ -14,9 +16,6 @@ public class MergeSort {
 
         int mid = left + (right - left) / 2;
 
-        /*
-          Divide and Conquer
-         */
         sort(arr, left, mid);
         sort(arr, mid + 1, right);
         merge(arr, left, mid, right);
@@ -24,8 +23,13 @@ public class MergeSort {
     }
 
 
-    /*
-      Merge two sorted lists
+    /**
+     * Merge two sorted list
+     *
+     * @param arr
+     * @param left
+     * @param mid
+     * @param right
      */
     private static void merge(int[] arr, int left, int mid, int right) {
 
@@ -54,9 +58,6 @@ public class MergeSort {
             temp[k++] = arr[j++];
         }
 
-        /*
-          temp -> arr
-         */
         System.arraycopy(temp, 0, arr, left, n);
 
     }
