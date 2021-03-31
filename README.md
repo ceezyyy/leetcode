@@ -28,6 +28,18 @@ void: return
 
 
 
+**Ancestor**
+
+(root, parent, grandparent)
+
+
+
+
+
+
+
+
+
 
 ### Stack and Queue
 
@@ -47,7 +59,9 @@ void: return
 
 ### Array
 
+**List to int array**
 
+list.stream().mapToInt(i -> i).toArray();
 
 
 
