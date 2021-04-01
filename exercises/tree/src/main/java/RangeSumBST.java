@@ -18,34 +18,26 @@ public class RangeSumBST {
         this.low = low;
         this.high = high;
 
-        traverse(root);
+        preorder(root);
 
         return res;
 
     }
 
-    /**
-     * Preorder traversal
-     *
-     * @param root
-     */
-    public void traverse(TreeNode root) {
+    public void preorder(TreeNode root) {
 
         if (root == null) return;
 
         int cur = root.val;
 
-        /*
-          Preorder traversal
-         */
         if (cur >= low && cur <= high) {
             res += cur;
-            traverse(root.left);
-            traverse(root.right);
+            preorder(root.left);
+            preorder(root.right);
         } else if (cur < low) {
-            traverse(root.right);
+            preorder(root.right);
         } else {
-            traverse(root.left);
+            preorder(root.left);
         }
 
     }

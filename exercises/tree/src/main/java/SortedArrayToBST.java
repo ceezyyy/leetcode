@@ -13,22 +13,19 @@ public class SortedArrayToBST {
 
     public TreeNode sortedArrayToBST(int[] nums) {
         this.nums = nums;
-        return traverse(0, nums.length - 1);
+        return preorder(0, nums.length - 1);
     }
 
-    public TreeNode traverse(int left, int right) {
+    public TreeNode preorder(int left, int right) {
 
         // Base case
         if (left > right) return null;
 
-        /*
-          Preorder traversal
-         */
         int mid = left + (right - left) / 2;
         TreeNode newNode = new TreeNode(nums[mid]);
 
-        newNode.left = traverse(left, mid - 1);
-        newNode.right = traverse(mid + 1, right);
+        newNode.left = preorder(left, mid - 1);
+        newNode.right = preorder(mid + 1, right);
 
         return newNode;
 

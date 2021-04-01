@@ -17,18 +17,15 @@ public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
 
         if (root == null) return res;
-        traverse(root, new StringBuilder());
+        preorder(root, new StringBuilder());
         return res;
 
     }
 
-    public void traverse(TreeNode root, StringBuilder sb) {
+    public void preorder(TreeNode root, StringBuilder sb) {
 
         if (root == null) return;
 
-        /*
-          Preorder traversal
-         */
         sb.append(root.val);
         if (root.left == null && root.right == null) {
             res.add(sb.toString());
@@ -36,8 +33,8 @@ public class BinaryTreePaths {
         }
         sb.append("->");
 
-        traverse(root.left, new StringBuilder(sb));
-        traverse(root.right, new StringBuilder(sb));
+        preorder(root.left, new StringBuilder(sb));
+        preorder(root.right, new StringBuilder(sb));
 
     }
 }

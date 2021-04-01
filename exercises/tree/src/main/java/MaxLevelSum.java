@@ -17,7 +17,7 @@ public class MaxLevelSum {
 
     public int maxLevelSum(TreeNode root) {
 
-        traverse(root, 1);
+        preorder(root, 1);
 
         /*
           Find maximum level sum
@@ -35,18 +35,15 @@ public class MaxLevelSum {
 
     }
 
-    public void traverse(TreeNode root, int depth) {
+    public void preorder(TreeNode root, int depth) {
 
         if (root == null) return;
 
-        /*
-          Preorder traversal
-         */
         res[depth - 1] += root.val;
         maxDepth = Math.max(maxDepth, depth);
 
-        traverse(root.left, depth + 1);
-        traverse(root.right, depth + 1);
+        preorder(root.left, depth + 1);
+        preorder(root.right, depth + 1);
 
     }
 }

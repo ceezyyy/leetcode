@@ -8,32 +8,27 @@
  * @since 2021/3/30
  */
 public class GoodNodes {
-    
+
     private int res = 0;
 
     public int goodNodes(TreeNode root) {
-        traverse(root, Integer.MIN_VALUE);
+        preorder(root, Integer.MIN_VALUE);
         return res;
     }
 
 
-    public void traverse(TreeNode root, int max) {
+    public void preorder(TreeNode root, int max) {
 
         // Base case
         if (root == null) return;
 
-        /*
-          Preorder traversal
-
-          Keep tracking the maximum of each path
-         */
         if (root.val >= max) {
             res++;
             max = root.val;
         }
 
-        traverse(root.left, max);
-        traverse(root.right, max);
+        preorder(root.left, max);
+        preorder(root.right, max);
 
     }
 

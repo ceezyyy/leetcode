@@ -16,20 +16,17 @@ public class IsUnivalTree {
         if (root == null) return true;
         uniqueVal = root.val;
 
-        return traverse(root);
+        return preorder(root);
 
     }
 
-    public boolean traverse(TreeNode root) {
+    public boolean preorder(TreeNode root) {
 
         if (root == null) return true;
 
-        /*
-          Preorder traversal
-         */
         if (root.val != uniqueVal) return false;
 
-        return traverse(root.left) && traverse(root.right);
+        return preorder(root.left) && preorder(root.right);
 
     }
 }

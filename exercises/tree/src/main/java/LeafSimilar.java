@@ -17,8 +17,8 @@ public class LeafSimilar {
 
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
 
-        traverse(root1, nums1);
-        traverse(root2, nums2);
+        inorder(root1, nums1);
+        inorder(root2, nums2);
 
         for (int i = 0; i < Math.min(nums1.size(), nums2.size()); i++) {
             if (nums1.get(i) != nums2.get(i)) return false;
@@ -28,16 +28,13 @@ public class LeafSimilar {
 
     }
 
-    public void traverse(TreeNode root, List<Integer> nums) {
+    public void inorder(TreeNode root, List<Integer> nums) {
 
         if (root == null) return;
 
-        /*
-          Inorder traversal
-         */
-        traverse(root.left, nums);
+        inorder(root.left, nums);
         if (root.left == null && root.right == null) nums.add(root.val);
-        traverse(root.right, nums);
+        inorder(root.right, nums);
 
     }
 }
