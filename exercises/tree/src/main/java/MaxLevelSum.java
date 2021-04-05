@@ -39,7 +39,7 @@ public class MaxLevelSum {
 
         if (root == null) return;
 
-        res[depth - 1] += root.val;
+         res[depth - 1] += root.val;
         maxDepth = Math.max(maxDepth, depth);
 
         preorder(root.left, depth + 1);

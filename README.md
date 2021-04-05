@@ -57,11 +57,7 @@ void: return
 
 
 
-### Array
 
-**List to int array**
-
-list.stream().mapToInt(i -> i).toArray();
 
 
 
