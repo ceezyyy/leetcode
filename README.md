@@ -34,9 +34,11 @@ void: return
 
 
 
+**Level order traversal**
 
+queue: store the nodes, and keep *FIFO*
 
-
+n: the size of each layer
 
 
 
@@ -55,9 +57,15 @@ void: return
 
 ### String
 
+**StringBuilder**
 
+*append*()
 
+*charAt()*
 
+*deleteCharAt()*
+
+*length()*
 
 
 
@@ -108,6 +116,28 @@ void: return
 
 
 ### Searching
+
+**Backtracking**
+
+```java
+private T result;
+
+void backtracking(currentChoice, path) {
+  
+  if (reach the goal) {
+    result.add(copyOfPath);
+    return;
+  }
+  
+  // Making choices w/ constraints
+  for (choice : choices) {
+    path.add(choice);
+    backtracking(nextChoice, path);
+    path.removeLast();
+  }
+  
+}
+```
 
 
 
