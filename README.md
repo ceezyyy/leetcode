@@ -21,16 +21,6 @@ Study notes for data structures & algorithms
 
 
 
-**Add two numbers**
-
-- reverse
-- *carry* : x / n (n 进制)
-- *pop* : x % n (n 进制)
-
-
-
-
-
 ### Tree
 
 **Root-to-leaf**
@@ -47,17 +37,8 @@ Study notes for data structures & algorithms
 
 
 
-**Level order traversal**
-
-- queue: store the nodes, and keep *FIFO*
-- n: the size of each layer
-
-
-
 
 ### Stack and Queue
-
-
 
 
 
@@ -82,8 +63,6 @@ Study notes for data structures & algorithms
 
 
 ### Bit Manipulation
-
-
 
 
 
@@ -141,9 +120,11 @@ Study notes for data structures & algorithms
 
 ### Math
 
-**Overflow?**
+**Add two numbers**
 
-- *INT_MAX* : 2^31 - 1
+- reverse
+- *carry* : sum / n (n 进制)
+- *pop* : sum % n (n 进制)
 
-- *INT_MIN* : 
+
 
