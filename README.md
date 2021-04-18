@@ -65,7 +65,7 @@ Study notes for data structures & algorithms
 
 **Two Sum**
 
-- 需要频繁访问 *target* 时，考虑采用哈希表（元素间碰撞消除等）
+- 需要频繁访问 *target* 时，考虑采用哈希表
 
   
 
