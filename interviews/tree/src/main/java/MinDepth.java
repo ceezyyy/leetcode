@@ -6,7 +6,7 @@
  * @author ceezyyy
  * @since 2021/3/29
  */
-public class MinDepthOfBinaryTree {
+public class MinDepth {
     public int minDepth(TreeNode root) {
 
         if (root == null) return 0;

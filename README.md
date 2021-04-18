@@ -8,37 +8,49 @@ Study notes for data structures & algorithms
 
 ### Linked List
 
+**常规手段**
+
+- *dummy* 作哨兵, *cur* 作游标
+- 一直遍历（最长链表）, 每次遍历再进行空值判断
+
+
+
+**Reverse list**
+
+- *pre*, *cur*, *post*
+
+
+
+**Add two numbers**
+
+- reverse
+- *carry* : x / n (n 进制)
+- *pop* : x % n (n 进制)
+
+
+
 
 
 ### Tree
 
 **Root-to-leaf**
 
-int: a + b (choose a non-empty element between a and b)
-
-boolean: false (if root is null)
-
-void: return 
+- int: a + b (choose a non-empty element between a and b)
+- boolean: false (if root is null)
+- void: return 
 
 
 
 **Whether the node is empty**
 
-(root) ? null : root
-
-
-
-**Ancestor**
-
-(root, parent, grandparent)
+- (root) ? null : root
 
 
 
 **Level order traversal**
 
-queue: store the nodes, and keep *FIFO*
-
-n: the size of each layer
+- queue: store the nodes, and keep *FIFO*
+- n: the size of each layer
 
 
 
@@ -51,21 +63,13 @@ n: the size of each layer
 
 ### Hashtable
 
+**Two Sum**
 
+- 需要频繁访问 *target* 时，考虑采用哈希表（元素间碰撞消除等）
 
-
+  
 
 ### String
-
-**StringBuilder**
-
-*append*()
-
-*charAt()*
-
-*deleteCharAt()*
-
-*length()*
 
 
 
@@ -90,6 +94,12 @@ n: the size of each layer
 ## Algorithms
 
 ### Two Pointers
+
+**Two Sum**
+
+- 返回的是**元素**而非 index，可考虑排序 + 双指针
+
+
 
 
 
@@ -117,27 +127,9 @@ n: the size of each layer
 
 ### Searching
 
-**Backtracking**
 
-```java
-private T result;
 
-void backtracking(currentChoice, path) {
-  
-  if (reach the goal) {
-    result.add(copyOfPath);
-    return;
-  }
-  
-  // Making choices w/ constraints
-  for (choice : choices) {
-    path.add(choice);
-    backtracking(nextChoice, path);
-    path.removeLast();
-  }
-  
-}
-```
+
 
 
 
@@ -149,8 +141,9 @@ void backtracking(currentChoice, path) {
 
 ### Math
 
+**Overflow?**
 
+- *INT_MAX* : 2^31 - 1
 
-
-
+- *INT_MIN* : 
 

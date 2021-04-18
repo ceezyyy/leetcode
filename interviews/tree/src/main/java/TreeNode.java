@@ -6,7 +6,7 @@
  * @author ceezyyy
  * @since 2021/3/24
  */
-public class TreeNode {
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;

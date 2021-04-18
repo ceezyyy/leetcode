@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tree" />
+        <module name="two-pointers" />
+        <module name="hashtable" />
+        <module name="string" />
         <module name="searching" />
       </profile>
     </annotationProcessing>
