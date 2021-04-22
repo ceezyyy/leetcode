@@ -6,6 +6,16 @@ Study notes for data structures & algorithms
 
 ## Data Structures
 
+### Array
+
+**Rotate**
+
+1. 逆推
+2. *Reverse*
+3. *Swap* (主对角线, 分界线, 轴)
+
+
+
 ### Linked List
 
 **常规手段**
@@ -51,6 +61,8 @@ Study notes for data structures & algorithms
   
 
 ### String
+
+**KMP**
 
 
 

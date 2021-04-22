@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tree" />
         <module name="two-pointers" />
         <module name="hashtable" />
         <module name="string" />
+        <module name="array" />
+        <module name="linked-list" />
         <module name="searching" />
+        <module name="tree" />
       </profile>
     </annotationProcessing>
   </component>

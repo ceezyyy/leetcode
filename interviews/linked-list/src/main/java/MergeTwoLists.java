@@ -1,7 +1,7 @@
 /**
  * <p>
- * 21. 合并两个有序链表 (Easy)
- * https://leetcode-cn.com/problems/merge-two-sorted-lists/
+ * 21. Merge Two Sorted Lists (Easy)
+ * https://leetcode.com/problems/merge-two-sorted-lists/
  * </p>
  *
  * @author ceezyyy
@@ -13,9 +13,10 @@ public class MergeTwoLists {
         ListNode dummy = new ListNode(-1);
         ListNode cur = dummy;
 
+        // Walk through the longest path
         while (l1 != null || l2 != null) {
 
-            // 一方为空, 则指向另一方, 结束
+            // 1) One of the list is null
             if (l1 == null) {
                 cur.next = l2;
                 break;
@@ -25,6 +26,7 @@ public class MergeTwoLists {
                 break;
             }
 
+            // 2) Both lists are not null
             if (l1.val <= l2.val) {
                 cur.next = new ListNode(l1.val);
                 l1 = l1.next;
