@@ -140,3 +140,7 @@ Study notes for data structures & algorithms
 
 
 
+**Missing number**
+
+- *Gauss' Formula*
+

@@ -3,8 +3,8 @@ import java.util.Deque;
 
 /**
  * <p>
- * 155. Min Stack (Easy)
- * https://leetcode.com/problems/min-stack/
+ * 155. 最小栈 (Easy)
+ * https://leetcode-cn.com/problems/min-stack/
  * </p>
  *
  * @author ceezyyy
@@ -12,30 +12,26 @@ import java.util.Deque;
  */
 class MinStack {
 
-    // -2^31 <= val <= 2^31 - 1
     private Deque<Integer> stack;
     private Deque<Integer> minStack;
 
-    /**
-     * initialize your data structure here.
-     */
     public MinStack() {
-        stack = new ArrayDeque<>();
-        minStack = new ArrayDeque<>();
+        this.stack = new ArrayDeque<>();
+        this.minStack = new ArrayDeque<>();
     }
 
     public void push(int val) {
 
-        if (minStack.isEmpty() || (!minStack.isEmpty() && val <= minStack.peek())) {
-            minStack.push(val);
-        }
+        // 1) 当 minStack 为空时
+        // 2) 当 val 小于等于 minStack 栈顶元素时
+        if (minStack.isEmpty() || minStack.peek() >= val) minStack.push(val);
 
         stack.push(val);
 
     }
 
     public void pop() {
-        // Operations will always be called on non-empty stacks.
+        // 当要弹出的元素是 minStack 栈顶元素时
         if (stack.pop().equals(minStack.peek())) minStack.pop();
     }
 
