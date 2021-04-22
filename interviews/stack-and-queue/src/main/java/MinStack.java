@@ -3,8 +3,8 @@ import java.util.Deque;
 
 /**
  * <p>
- * 155. 最小栈 (Easy)
- * https://leetcode-cn.com/problems/min-stack/
+ * 155. Min Stack (Easy)
+ * https://leetcode.com/problems/min-stack/
  * </p>
  *
  * @author ceezyyy
@@ -21,17 +21,17 @@ class MinStack {
     }
 
     public void push(int val) {
-
-        // 1) 当 minStack 为空时
-        // 2) 当 val 小于等于 minStack 栈顶元素时
+        /*
+          1) 当 minStack 为空时
+          2) 当 val 小于等于 minStack 栈顶元素
+         */
         if (minStack.isEmpty() || minStack.peek() >= val) minStack.push(val);
-
         stack.push(val);
 
     }
 
     public void pop() {
-        // 当要弹出的元素是 minStack 栈顶元素时
+        // 当即将弹出的元素等于 minStack 栈顶元素
         if (stack.pop().equals(minStack.peek())) minStack.pop();
     }
 
@@ -40,6 +40,7 @@ class MinStack {
     }
 
     public int getMin() {
+        // 符合 LIFO, 查找 O(1)
         return minStack.peek();
     }
 
