@@ -47,8 +47,14 @@ Study notes for data structures & algorithms
 
 
 
-
 ### Stack and Queue
+
+**Circular Queue**
+
+- 根据 *head* 和 *size* 计算出 *tail*
+- 循环: 对 *n* 取模
+
+<div align="center"> <img src="circular-queue.png" width="50%"/> </div><br>
 
 
 
